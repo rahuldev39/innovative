@@ -64,7 +64,7 @@ while ensuring safety against COVID </p>
     <!-- New img code-->
 
     <div id="mgmt-bio1">
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
             <div class="col-md-5  pad-r background-img" style="">
 
@@ -106,7 +106,7 @@ while ensuring safety against COVID </p>
     <!-- New img code-->
 
     <div id="mgmt-bio1">
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
             
             <div class="col-md-7 pad-l" style="padding-right:0;">
@@ -150,7 +150,7 @@ while ensuring safety against COVID </p>
     <!-- New img code-->
 
     <div id="mgmt-bio1">
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
             <div class="col-md-5  pad-r background-img" style="">
 
@@ -197,7 +197,7 @@ And that’s where our third solution comes handy. TRACKview is a GPS enabled lo
     <!-- New img code-->
 
     <div id="mgmt-bio1">
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
             
             <div class="col-md-7 pad-l" style="padding-right:0;">
@@ -249,7 +249,7 @@ And that’s where our third solution comes handy. TRACKview is a GPS enabled lo
     <!-- New img code-->
 
     <div id="mgmt-bio1">
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
             <div class="col-md-5  pad-r background-img" style="">
 

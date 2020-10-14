@@ -191,11 +191,9 @@ h2.leadership:after {
 .background-img{position: relative;}
 
 .box-solution {
-    position: absolute;
-    top: 50%;
-    left: 51%;
-    transform: translate(-50%, -50%);
-    width: 96%;
+    position: relative;
+  
+    width: 100%;
     height: auto;
     /* background: #111845a6; */
     box-sizing: border-box;
@@ -205,7 +203,13 @@ h2.leadership:after {
     /* color: white; */
     /* padding: 20px; */
 }
-
+.single-img{
+  height: 100%;
+}
+.single-img img{
+  height: 100% !important;
+  object-fit: cover;
+}
 .box-solution:before{
   content: '';
   position:absolute;
@@ -309,11 +313,9 @@ h2.leadership:after {
 /* box solution 1 */
 
 .box-solution1 {
-    position: absolute;
-    top: 50%;
-    left: 49%;
-    transform: translate(-50%, -50%);
-    width: 96%;
+    position: relative;
+
+    width:100%;
     height: auto;
     /* background: #111845a6; */
     box-sizing: border-box;
