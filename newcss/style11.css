@@ -1,0 +1,568 @@
+*{
+    padding:0;
+    margin: 0 auto;
+    font-family: 'CeraGR-Medium';
+}
+
+html,body{height:100%;} 
+body{margin:0;}
+section{overflow:hidden;}
+
+
+a:hover{text-decoration:none;}
+  
+
+@font-face {
+  font-family: 'CeraGR-Thin';
+  src: url('../fonts/CeraGR-Thin.eot');
+  src: url('../fonts/CeraGR-Thin.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/CeraGR-Thin.svg#CeraGR-Thin') format('svg'),
+       url('../fonts/CeraGR-Thin.ttf') format('truetype'),
+       url('../fonts/CeraGR-Thin.woff') format('woff'),
+       url('../fonts/CeraGR-Thin.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Didot-Bold';
+  src: url('../fonts/Didot-Bold.eot');
+  src: url('../fonts/Didot-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Didot-Bold.svg#Didot-Bold') format('svg'),
+       url('../fonts/Didot-Bold.ttf') format('truetype'),
+       url('../fonts/Didot-Bold.woff') format('woff'),
+       url('../fonts/Didot-Bold.woff2') format('woff2'); 
+}
+
+@font-face {
+  font-family: 'Didot-Italic';
+  src: url('../fonts/Didot-Italic.eot');
+  src: url('../fonts/Didot-Italic.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Didot-Italic.svg#Didot-Italic') format('svg'),
+       url('../fonts/Didot-Italic.ttf') format('truetype'),
+       url('../fonts/Didot-Italic.woff') format('woff'),
+       url('../fonts/Didot-Italic.woff2') format('woff2'); 
+}
+
+@font-face {
+  font-family: 'Didot';
+  src: url('../fonts/Didot.eot');
+  src: url('../fonts/Didot.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Didot.svg#Didot') format('svg'),
+       url('../fonts/Didot.ttf') format('truetype'),
+       url('../fonts/Didot.woff') format('woff'),
+       url('../fonts/Didot.woff2') format('woff2'); 
+}
+
+
+@font-face {
+  font-family: 'Gotham-Medium';
+  src: url('../fonts/Gotham-Medium.eot');
+  src: url('../fonts/Gotham-Medium.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Gotham-Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'GothamMedium';
+  src: url('../fonts/GothamMedium.svg#GothamMedium') format('svg'),
+       url('../fonts/GothamMedium.ttf') format('truetype'),
+       url('../fonts/GothamMedium.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'CeraGR-Medium';
+  src: url('../fonts/CeraGR-Medium.eot');
+  src: url('../fonts/CeraGR-Medium.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/CeraGR-Medium.svg#CeraGR-Medium') format('svg'),
+       url('../fonts/CeraGR-Medium.ttf') format('truetype'),
+       url('../fonts/CeraGR-Medium.woff') format('woff'),
+       url('../fonts/CeraGR-Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: "CeraGR-Light";
+  src: url("../fonts/CERAGRLIGHT.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/CERAGRLIGHT.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/CERAGRLIGHT.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/CERAGRLIGHT.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/CERAGRLIGHT.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/CERAGRLIGHT.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/CERAGRLIGHT.woff2") format("woff2"); /* Modern Browsers */
+
+}
+
+
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: none;
+    z-index: 9999;
+    box-sizing: border-box;
+}
+
+.dl{
+    width: 100%;
+    justify-content: space-between;
+}
+.altima{
+    width: 40px;
+    margin: 170px 0 0 0;
+    
+}
+
+.altima-logo img{width:100%;}
+
+
+.dlf-logo {
+    
+   width:100px; 
+    float:right;
+    margin-right: -14px;
+    padding: 0;
+    margin-top: 5px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+}
+.dlf-logo img {
+ 
+   
+    /* float: left; */
+    vertical-align: middle;
+    width: 100%;
+    
+
+}
+
+.pd-top{padding:100px 0;}
+
+.sticky {
+    height: 70px;
+    background: #060606e0;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.11);
+    -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.11);
+    -moz-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.11);
+    -o-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.11);
+}
+
+.tint{
+    position: absolute;
+    left: 0;
+    right: 0;
+    background:#00000069;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+}
+.group-text{
+    position: absolute;
+    top: 114px;
+    left: 0;
+    right:0;
+    z-index: 999;
+    max-width:435px;
+    overflow: hidden;
+}
+
+ .text-slider h4{
+     font-family: 'Didot';
+    font-size:60px;
+   color: #d79277;
+}
+
+.group-text h1{
+     padding-left:15px;
+    margin: -4px 0;
+   font-family: 'CeraGR-Medium';
+    font-size:30px;
+   color: #d79277;
+  
+}
+.group-text .titl-text{
+height: 35px;
+    border-left: 3px solid #d79277;
+    margin-left:7px;
+    display: flex;
+    }
+
+.maincounter{
+   max-width: 400px;
+    position: absolute;
+    top: 185px;
+    left: 110px;
+    display: flex;
+    z-index: 9999;
+    text-align: center;
+
+}
+
+    .purch_heading{
+        font-family: 'DIN-Medium';
+    font-size: 30px;
+    color: #c3a969;
+    position: relative;
+    margin-bottom:30px;
+        
+    }
+    .purchase-counter{padding:20px 0px;}
+    
+    .counter{
+    height: 89px;
+    margin: 0px 21px;
+        
+    }
+    
+    .booking-btn button{background: #023b5a;padding:10px 0px;width: 200px;text-align:center;color:#fff; border:0;   font-family: 'HelveticaNeue-Bold';}
+    .terms{position: fixed;
+    font-size: 16px;
+    right: -25px;
+    bottom: 63px;
+    transform: rotate(90deg);}
+.counter h3{font-family: 'BodoniBT-Book';font-size:15px;color:#fff;}
+.counter h1{
+    margin-bottom: 0;
+     font-family: 'GothamMedium';
+}
+.counter h1 span{ font-family: 'GothamMedium';font-size:25px;color:#fff;}
+.purchase-booking-form{width:100%;}
+ #myModal .modal-header {width:100%;}
+ #myModal .modal-header .modal-title{width:100%;text-align:center;}
+ .purchase-booking-form .btn{background:#000;color:#fff;width:150px;cursor: pointer;}
+ .purchase-booking-form textarea{resize:none;}
+ .booking-btn button{cursor:pointer;}
+ 
+
+footer {
+    background-color: #00000;
+    padding: 8px 0px;
+    width: 100%;
+    float: left;
+    bottom: 0;
+    color: #023b5a;
+    font-size: 12px;
+    display:none;
+}
+
+
+footer p {
+    margin-bottom:0;
+    font-size: 13px;
+    
+}
+
+footer p a {
+    color: #fff;
+    margin-bottom: 0;
+    font-size: 13px;
+    opacity: 0.7;
+    font-weight: 100;
+}
+
+.text-left{float:left;text-align:left;font-size: 15px;}
+
+.purch_heading h2{font-family:'georgia';font-size:24px;}
+.modal{z-index: 9999999 !important;}
+.mobile-btn{display:none;}
+
+.pd{
+   padding-right:0px !important;
+    /*padding-left:!important;*/
+}
+.contact_form{padding: 125px 125px 70px 100px;}
+
+.contact_form p{font-size:14px;margin-top:15px;}
+
+.contact_form h6 {
+    margin-bottom: 30px;
+}
+.contact_form h6 {
+    text-align: left;
+    font-size: 34px;
+    font-family: 'BentonSans-Book';
+}
+.form-group {
+    margin-bottom:0px !important
+}
+.contact_form .form-control {
+    letter-spacing: 0px;
+    background: transparent;
+    border-radius: 0;
+    font-size: 14px;
+    padding: 10px 0;
+    height: auto !important;
+    border: none;
+    border-bottom: solid 1px #adadad;
+    /*width:400px;*/
+}
+
+table{
+    
+    margin: 0;
+    width: 100%;
+}
+th{
+    text-align: inherit;
+    font-size: 15px;
+    letter-spacing: 1px;
+border:1px solid #000;
+ padding:8px;
+}
+ tr, td{
+    padding:8px;
+    border:1px solid #000;
+    font-size:13px;
+}
+
+.contact_form button {
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-left: 0px;
+    width: 240px;
+    padding: 10px 0px;
+    background: #023b5a;
+}
+.counter-days{position: fixed;
+     position: fixed;
+    bottom:0;
+    right: 0;
+    background:#023b5a;
+    width: 600px;
+    height: 159px;
+    padding: 20px 0px;
+    border-radius: 0px;
+    left: 0;
+    z-index:9;
+}
+.coming-head{font-size:25px;color:#8d634b;}
+    
+    
+    .form-group .form-control:focus {
+	box-shadow: none;
+  border-width: 0 0 2px 0;
+  border-color: #000;
+  
+}
+    
+@media (max-width: 992px){.main-counter{width:100% !important;margin-top:20px;}
+
+.header {
+    width: 100%;
+    background:#fff;
+    box-shadow:0 0 15px #0000005e;
+}
+
+.first-section{margin-top:58px;}
+.sub-counter {
+    width: 25% !important;
+    padding:0px 5px !important;
+}
+.counter h3{font-size:16px;}
+.counter{height:86px;}
+.purch_heading{margin-top:15px;}
+
+.pd-top{padding-bottom:40px;}
+ footer .text-left{font-size:13px;    text-align: center !important;}
+ 
+ body{overflow-y:scroll !important;overflow-x:hidden !important;margin-bottom:20px;}
+ .contact_form{display:none;}
+ .counter-days {
+    position: relative;
+    background: #000;
+    width: 100%;
+    height: 159px;
+    padding: 20px 0px;
+    border-radius: 6px;
+    bottom: 0px;
+    right: 0px;
+    margin-top: -81px;
+}
+.mobile-btn{display:block;}
+.logo img{float:none;}
+.logo{width:100%;float:none;text-align:center;}
+.main-counter{margin-top: 0px;}
+.counter-days{width:90%;}
+.counter{margin:0px;}
+.booking-btn{margin-top:0px;margin-bottom:20px;}
+.carousel{height:250px;}
+#myModal{padding-right:0px !important;}
+footer{display:block;}
+}
+
+.cnt{display:none;
+
+    
+}
+
+
+.form-group .form-control {
+    letter-spacing: 0px;
+    background: transparent;
+    border-radius: 0;
+    font-size: 14px;
+    padding: 10px 0;
+    height: auto !important;
+    border: none;
+    border-bottom: solid 1px #adadad;
+   
+    
+  -webkit-box-shadow: none;
+  border-bottom: 1px;
+  border-style: none none solid none;
+  border-radius:0; 
+  border-color: #ccc;
+}
+
+.form-group .form-control:focus {
+	box-shadow: none;
+  border-width: 0 0 2px 0;
+  border-color: #000;
+  
+}
+
+textarea {
+  resize: none;
+}
+
+.btn{
+background: #023b5a;
+border-radius:0;
+}
+
+
+
+.btn-mod.btn-large {
+    height: auto;
+    padding: 13px 52px;
+    font-size: 15px;
+}
+
+.btn-mod.btn-border {
+    color: #000000;
+    border: 1px solid #000000;
+    background: transparent;
+}
+
+
+
+@media (max-width:767px){
+    
+    .dlf-logo img {
+    /* float: left; */
+    vertical-align: middle;
+    width: 100%;
+    margin: 0px 0px 10px;
+}
+    
+    .dlf-logo {float:left;}
+    .pre-book-form {
+    padding: 0px 20px !important;
+}
+
+.modal-body p{font-size:14px;margin-top:15px;margin-bottom:0;}
+
+.purchase-booking-form .btn {
+    
+    color: #fff;
+    border: none;
+    border-radius:0;
+    width:150px;
+    padding: 10px 0px;
+    background: #023b5a;
+    width: 150px;
+    cursor: pointer;
+    margin-top:0;
+}
+
+
+    .group-text{
+   position: absolute;
+    top:80px;
+    left:150px;
+    z-index: 999;
+    max-width:100%;
+    overflow: hidden;
+    right: 40px;
+    width: 100%;
+    text-align:left;
+}
+
+.maincounter {
+  
+    max-width: 317px;
+    position: absolute;
+    top: 200px;
+    left: 0;
+    display: flex;
+    z-index: 9999;
+    text-align: center;
+    right: 0;
+}
+
+
+.altima {
+    width: 40px;
+    margin: 120px 0 0 0;
+}
+
+
+}
+
+@media (max-width:480px){
+    
+     .group-text{
+   position: absolute;
+    top:80px;
+    left: 50px;
+    z-index: 999;
+    max-width: 365px;
+    overflow: hidden;
+    right: 40px;
+    width: 100%;
+    text-align:left;
+}
+
+.altima {
+    width: 40px;
+    margin: 100px 0 0 0;
+}
+
+}
+@media (max-width:375px){
+     .group-text{  
+    position: absolute;
+    top: 45px;
+    left: 50px;
+    z-index: 999;
+    max-width: 500px;
+    overflow: hidden;
+    right: 40px;
+    width: 100%;
+    text-align:left;
+}
+.altima {
+    width: 40px;
+    margin: 120px 0 0 0;
+}
+
+.text-slider h4{font-size:50px;}
+}
+
+
+
+.privacytext {
+    margin-left: 20px;
+    margin-right: 30px;
+}

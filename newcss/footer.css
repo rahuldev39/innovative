@@ -1,0 +1,143 @@
+.footer {
+  background: #030a16;
+}
+
+.footer_logo img {
+  width: 220px;
+}
+
+.footer .top{
+      padding-top: 115px;
+}
+
+.footer h4 {
+  margin-bottom: 40px;
+    position: relative;
+    color: #1d9dd8;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+}
+
+.footer h4:after {
+    content: '';
+    position: absolute;
+    width: 42px;
+    height: 1px;
+    background: #1d9dd8;
+    bottom: -13px;
+    left: 0;
+
+}
+
+.newsletter_box .form-control {
+    background: transparent;
+    border-radius: 0;
+    padding: 17px 30px;
+    font-size: 14px;
+    border: solid 1px #444;
+}
+
+.newsletter_box button.btn.btn-primary.mb-2 {
+    border: solid 1px #444;
+    background: transparent;
+    border-radius: 0;
+    padding: 12px 30px;
+    margin-bottom: 0 !important;
+    color: #444;
+    font-size: 26px;
+}
+.social-icon li a i {
+    color: #1d9dd8;
+    font-size: 20px;
+    margin-right: 11px;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    -o-transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 0.3s;
+    -webkit-transition: all ease-in-out 0.3s;
+    -moz-transition: all ease-in-out 0.3s;
+    border-radius: 50%;
+}
+.social-icon li a i:hover {
+    background: #1d9dd8 !important;
+    color: #fff !important;
+}
+.footer_menu ul {
+  list-style: none;
+}
+.footer_menu ul li{
+}
+.footer_menu {
+    /*margin-top: 60px;*/
+}
+
+.copyright .left{
+text-align: left;
+font-size: 12px;
+}
+
+.copyright .right{
+text-align: right;
+}
+
+.copyright {
+    background: #070707;
+    padding: 10px 0;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.footer .copyright p {
+  margin-bottom: 0;
+  font-size: 13px;
+}
+
+.footer_menu ul li a {
+    font-size: 15px;
+    color: #fff;
+    font-family: 'ProximaNovaA-Thin';
+}
+.footer_menu ul li {
+    margin-bottom: 5px;
+}
+
+.footer_menu p {
+    color: #fff;
+    margin-bottom: 0;
+   font-size: 16px;
+}
+
+.website{
+      opacity: 0.4;
+    color: #fff;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-family: "CeraGR-Light";
+    margin-top: 80px;
+    display: block;
+}
+
+
+.footer_inner {
+    margin-top: 40px;
+}
+
+
+.second {
+      padding-left: 0px;
+}
+
+.third {
+    padding-left: 45px;
+}
+
+.fourth {
+  padding-left: 187px;
+}
+
+.footer_menu ul li a:hover {
+  opacity: 1;
+}

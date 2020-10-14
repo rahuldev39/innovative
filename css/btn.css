@@ -1,0 +1,429 @@
+/*.back {*/
+/*    width: 33%;*/
+/*    height: 200px;*/
+/*    float: left;*/
+/*    background-color: #eeeeee;*/
+/*    border: 10px;*/
+/*    border-color: #ffffff;*/
+/*    border-style: solid;*/
+/*    box-sizing: border-box;*/
+/*    -webkit-box-sizing: border-box;*/
+/*    -moz-box-sizing: border-box;*/
+/*    counter-increment: bc;*/
+/*    padding: 0px 5px 5px 5px;*/
+/*}*/
+
+/*.back:before {*/
+/*    content: counter(bc) "_";*/
+/*    position: absolute;*/
+/*    padding: 10px;*/
+/*}*/
+
+.button_base {
+    margin: 0;
+    border: 0;
+    font-size: 22px;
+    position: relative;
+    font-weight:600;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-user-select: none;
+    cursor: default;
+    max-width: 200px;
+}
+
+.button_base:hover {
+    cursor: pointer;
+}
+/* ### ### ### 03 */
+.b03_skewed_slide_in {
+    overflow: hidden;
+    border: #1d9dd8 solid 1px;
+    border-radius: 8px;
+}
+
+.b03_skewed_slide_in div {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 13px;
+}
+
+.b03_skewed_slide_in div:nth-child(1) {
+    color: #13284c;
+    background-color: #fff;
+    font-size: 22px;
+}
+
+.b03_skewed_slide_in div:nth-child(2) {
+    background-color: #1d9dd8;
+    width: 230px;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    transform: translate(-250px, 0px) skewX(-30deg);
+    -webkit-transform: translate(-250px, 0px) skewX(-30deg);
+    -moz-transform: translate(-250px, 0px) skewX(-30deg);
+}
+
+.b03_skewed_slide_in div:nth-child(3) {
+    color: #ffffff;
+    left: -200px;
+    transition: left 0.2s ease;
+    -webkit-transition: left 0.2s ease;
+    -moz-transition: left 0.2s ease;
+}
+
+.b03_skewed_slide_in:hover div:nth-child(2) {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transform: translate(-15px, 0px) skewX(-30deg);
+    -webkit-transform: translate(-15px, 0px) skewX(-30deg);
+    -moz-transform: translate(-15px, 0px) skewX(-30deg);
+}
+
+.b03_skewed_slide_in:hover div:nth-child(3) {
+    left: 0px;
+    transition: left 0.30000000000000004s ease;
+    -webkit-transition: left 0.30000000000000004s ease;
+    -moz-transition: left 0.30000000000000004s ease;
+}
+
+.back{position: relative;}
+.button_base.b03_skewed_slide_in:before {
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    content: "";
+    display: block;
+    /*background: white;*/
+    top: 29px;
+    z-index: 1111;
+}
+/*.button_base.b03_skewed_slide_in:before {
+   position: absolute;
+    width: 30px;
+    height: 3px;
+    content: "";
+    display: block;
+    background: white;
+    top: -3px;
+    z-index: 1111;
+    width: 0;
+    height: 0;
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    border-left: 60px solid #1d9dd8;
+}
+*/.security-btn p {
+    color: #fff!important;
+    font-weight: bold;
+    padding: 8px 0 0px;
+    text-align: center;
+    margin-top: 9px;
+    font-size: 18px;
+    margin-bottom: 3px;
+}
+
+
+/* BTN */
+.button_base-btn {
+    margin: 0;
+    border: 0;
+    font-size: 20px;
+    position: relative;
+    top: 70px;
+    left: 50%;
+    margin-top: -25px;
+    margin-left: -100px;
+    width: 185px;
+    height: 60px;
+    text-align: center;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-user-select: none;
+    cursor: default;
+}
+
+.button_base-btn:hover {
+    cursor: pointer;
+}
+/* ### ### ### 03 */
+.b03_skewed_slide_in-btn {
+    overflow: hidden;
+    border: #1d9dd8 solid 1px;
+    background-color: #fff;
+}
+
+.b03_skewed_slide_in-btn div {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 13px;
+}
+
+.b03_skewed_slide_i-btn div:nth-child(1) {
+    color: #ffffff;
+    background-color: #13284c;
+    font-size: 20px;
+}
+
+.b03_skewed_slide_in-btn div:nth-child(2) {
+    background-color: #1d9dd8;
+    width: 230px;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    transform: translate(-250px, 0px) skewX(-30deg);
+    -webkit-transform: translate(-250px, 0px) skewX(-30deg);
+    -moz-transform: translate(-250px, 0px) skewX(-30deg);
+}
+
+.b03_skewed_slide_in-btn div:nth-child(3) {
+    color: #ffffff;
+    left: -200px;
+    transition: left 0.2s ease;
+    -webkit-transition: left 0.2s ease;
+    -moz-transition: left 0.2s ease;
+}
+
+.b03_skewed_slide_in-btn:hover div:nth-child(2) {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transform: translate(-15px, 0px) skewX(-30deg);
+    -webkit-transform: translate(-15px, 0px) skewX(-30deg);
+    -moz-transform: translate(-15px, 0px) skewX(-30deg);
+}
+
+.b03_skewed_slide_in-btn:hover div:nth-child(3) {
+    left: 0px;
+    transition: left 0.30000000000000004s ease;
+    -webkit-transition: left 0.30000000000000004s ease;
+    -moz-transition: left 0.30000000000000004s ease;
+}
+
+.back-btn{position: relative;}
+.button_base.b03_skewed_slide_in-btn:before {
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    content: "";
+    display: block;
+    background: white;
+    top: 29px;
+    z-index: 1111;
+}
+
+
+
+
+
+/* DOWNLOAD BTN */
+.button_base-down {
+    margin: 0;
+    border: 0;
+    font-size: 20px;
+    position: relative;
+    top: 50%;
+    left: 19%;
+    margin-top: -25px;
+    margin-left: -100px;
+    width: 185px;
+    height: 60px;
+    text-align: center;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-user-select: none;
+    cursor: default;
+}
+
+.button_base-down:hover {
+    cursor: pointer;
+}
+/* ### ### ### 03 */
+.b03_skewed_slide_in-down {
+    overflow: hidden;
+    border: #fff solid 1px;
+    background-color: #1d9dd8;
+    border-radius: 2px;
+}
+
+.b03_skewed_slide_in-down div {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 13px;
+    color:#fff;
+}
+
+.b03_skewed_slide_i-down div:nth-child(1) {
+    color: #ffffff;
+    background-color: #13284c;
+    font-size: 20px;
+}
+
+.b03_skewed_slide_in-down div:nth-child(2) {
+    background-color: #fff;
+    width: 230px;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    transform: translate(-250px, 0px) skewX(-30deg);
+    -webkit-transform: translate(-250px, 0px) skewX(-30deg);
+    -moz-transform: translate(-250px, 0px) skewX(-30deg);
+}
+
+.b03_skewed_slide_in-down div:nth-child(3) {
+    color: #1d9dd8;
+    left: -200px;
+    transition: left 0.2s ease;
+    -webkit-transition: left 0.2s ease;
+    -moz-transition: left 0.2s ease;
+}
+
+.b03_skewed_slide_in-down:hover div:nth-child(2) {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transform: translate(-15px, 0px) skewX(-30deg);
+    -webkit-transform: translate(-15px, 0px) skewX(-30deg);
+    -moz-transform: translate(-15px, 0px) skewX(-30deg);
+}
+
+.b03_skewed_slide_in-down:hover div:nth-child(3) {
+    left: 0px;
+    transition: left 0.30000000000000004s ease;
+    -webkit-transition: left 0.30000000000000004s ease;
+    -moz-transition: left 0.30000000000000004s ease;
+}
+
+.back-down{position: relative;}
+.button_base.b03_skewed_slide_in-btn:before {
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    content: "";
+    display: block;
+    background: white;
+    top: 29px;
+    z-index: 1111;
+}
+
+
+/* Read More btn */
+
+.button_base-read {
+   margin: 0;
+    border: 0;
+    font-size: 20px;
+    position: relative;
+    /* top: 50%; */
+    left: 19%;
+    top: 6px;
+    /* margin-top: 10px; */
+    margin-left: -100px;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-user-select: none;
+    cursor: default;
+}
+
+.button_base-read:hover {
+    cursor: pointer;
+}
+/* ### ### ### 03 */
+.b03_skewed_slide_in-read {
+    overflow: hidden;
+    border: #fff solid 1px;
+    background-color: #1d9dd8;
+        border-radius: 3px;
+}
+
+.b03_skewed_slide_in-read div {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 13px;
+    color:#fff;
+}
+
+.b03_skewed_slide_i-read div:nth-child(1) {
+    color: #ffffff;
+    background-color: #13284c;
+    font-size: 20px;
+}
+
+.b03_skewed_slide_in-read div:nth-child(2) {
+    background-color: #fff;
+    width: 230px;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    transform: translate(-250px, 0px) skewX(-30deg);
+    -webkit-transform: translate(-250px, 0px) skewX(-30deg);
+    -moz-transform: translate(-250px, 0px) skewX(-30deg);
+}
+
+.b03_skewed_slide_in-read div:nth-child(3) {
+    color: #1d9dd8;
+    left: -200px;
+    transition: left 0.2s ease;
+    -webkit-transition: left 0.2s ease;
+    -moz-transition: left 0.2s ease;
+}
+
+.b03_skewed_slide_in-read:hover div:nth-child(2) {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transform: translate(-15px, 0px) skewX(-30deg);
+    -webkit-transform: translate(-15px, 0px) skewX(-30deg);
+    -moz-transform: translate(-15px, 0px) skewX(-30deg);
+}
+
+.b03_skewed_slide_in-read:hover div:nth-child(3) {
+    left: 0px;
+    transition: left 0.30000000000000004s ease;
+    -webkit-transition: left 0.30000000000000004s ease;
+    -moz-transition: left 0.30000000000000004s ease;
+}
+
+.back-read{position: relative;}
+/*.button_base.b03_skewed_slide_in-btn:before {
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    content: "";
+    display: block;
+    background: white;
+    top: 29px;
+    z-index: 1111;
+}*/

@@ -1,0 +1,510 @@
+/*.about-bn{
+
+    background-image: url(..images/image.jpg) ;
+            background-position: center center;
+            background-repeat:  no-repeat;
+            background-attachment: fixed;
+            background-size:  cover;
+            background-color: #999;
+}*/
+
+body {
+    font-family: 'ProximaNovaA-Thin';
+  color:#909090;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  
+    /*font-family: 'ProximaNova-Black';*/
+    font-family: 'ProximaNovaA-Thin';
+    font-weight: 600;
+    color: #1f1a17;
+    margin: 0;
+}
+
+p {
+  font-family: 'ProximaNovaA-Thin';
+  color: #fff;
+  font-size: 17px;
+  font-weight:bold;
+}
+
+
+@font-face {
+  font-family: 'ProximaNova-Black';
+  src: url('../fonts/ProximaNova-Black.eot');
+  src: url('../fonts/ProximaNova-Black.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/ProximaNova-Black.svg#ProximaNova-Black') format('svg'),
+       url('../fonts/ProximaNova-Black.ttf') format('truetype'),
+       url('../fonts/ProximaNova-Black.woff') format('woff'),
+       url('../fonts/ProximaNova-Black.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProximaNovaA-Thin';
+  src: url('../fonts/ProximaNovaA-Thin.eot');
+  src: url('../fonts/ProximaNovaA-Thin.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/ProximaNovaA-Thin.svg#ProximaNovaA-Thin') format('svg'),
+       url('../fonts/ProximaNovaA-Thin.ttf') format('truetype'),
+       url('../fonts/ProximaNovaA-Thin.woff') format('woff'),
+       url('../fonts/ProximaNovaA-Thin.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'ProximaNova-Extrabld';
+  src: url('../fonts/ProximaNova-Extrabld.eot');
+  src: url('../fonts/ProximaNova-Extrabld.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/../fonts/ProximaNova-Extrabld.svg#ProximaNova-Extrabld') format('svg'),
+       url('../fonts/ProximaNova-Extrabld.ttf') format('truetype'),
+       url('../fonts/ProximaNova-Extrabld.woff') format('woff'),
+       url('../fonts/ProximaNova-Extrabld.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
+.banner_inner{
+
+    background: url(../images/about-bn1.jpg) no-repeat center;
+    background-attachment: fixed;
+        background-size: cover !important;
+    position: relative;
+    height: 80vh;
+}
+
+.about-us {
+    position: absolute;
+    top: 50%;
+    width: 80%;
+}
+
+/*.our-solution-h1 {color: #fff;*/
+/*    text-align: center;*/
+/*    position: relative;*/
+/*    top: 334px;*/
+/*        font-size: 70px;*/
+/*    font-weight: bold;*/
+/*}*/
+
+
+.our-solution-h1 {
+    color: #fff;
+    /* text-align: center; */
+    position: absolute;
+    top: 201px;
+    left: 31%;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+h1.our-solution-h1:after {
+   
+    position: absolute;
+    width: 465px;
+    height: 10px;
+    /* background: red; */
+    display: block;
+    content: "";
+    left: 0%;
+    /* display: flex; */
+    margin: 0 auto;
+    text-align: center;
+    /* bottom: 20px; */
+    top: 75px;
+    background: rgb(255,255,255);
+    background: linear-gradient(135deg, rgba(255,255,255,1) 50%, rgba(56,192,240,1) 50%);
+}
+
+.solution-p {color: #fff;text-align: center; padding: 0 40px; font-size:18px;}
+
+h1.about-us1:after {
+    position: absolute;
+    width: 155px;
+    height: 4px;
+    /* background: red; */
+    display: block;
+    content: "";
+    left: 0%;
+    /* bottom: 20px; */
+    top: 58px;
+    background: rgb(255,255,255);
+    background: linear-gradient(135deg, rgba(255,255,255,1) 50%, rgba(56,192,240,1) 50%);
+}
+
+.about-sec{position: relative;}
+
+.about-sec h1:after {
+        position: absolute;
+    width: 154px;
+    left: 0;
+    /* right: 64px; */
+    height: 4px;
+    /* background: red; */
+    display: block;
+    top: 58px;
+    text-align: center;
+    content: "";
+    /* margin: 0 auto; */
+    /* background: rgb(56,192,240); */
+    /* background: linear-gradient(90deg, rgba(56,192,240,1) 50%, rgba(19,40,76,1) 50%); */
+    background: rgb(19,40,76);
+    background: linear-gradient(135deg, rgba(19,40,76,1) 50%, rgba(56,192,240,1) 50%);
+}
+.leader{background-color: #030a16;
+background-image: linear-gradient(0deg, #030a16 0%, #1d9dd8 100%);
+     padding: 51px 35px 37px;}
+.leadership{margin-top: 40px; color:#1d9dd8;}
+
+.Lead {
+    position: relative;
+}
+
+h2.leadership:after {
+    position: absolute;
+    width: 154px;
+    left: 0;
+    height: 4px;
+    display: block;
+    top: 45px;
+    text-align: center;
+    content: "";
+    background: rgb(19,40,76);
+    background: linear-gradient(135deg, rgba(19,40,76,1) 50%, rgba(56,192,240,1) 50%);
+}
+
+
+
+.background-img{position: relative;}
+
+.box-solution {
+    position: absolute;
+    top: 50%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    width: 96%;
+    height: auto;
+    /* background: #111845a6; */
+    box-sizing: border-box;
+    overflow: hidden;
+    /* box-shadow: 0 20px 50px rgb(23, 32, 90); */
+    /* border: 2px solid #2a3cad; */
+    /* color: white; */
+    /* padding: 20px; */
+}
+
+.box-solution:before{
+  content: '';
+  position:absolute;
+  top:0;
+  left:-100%;
+  width:100%;
+  height:100%;
+  background: rgba(255,255,255,0.1);
+  transition:0.5s;
+  pointer-events: none;
+}
+
+.box-solution:hover:before{
+  left:-50%;
+  transform: skewX(-5deg);
+}
+
+
+.box-solution .content{
+  position:absolute;
+  top:15px;
+  left:15px;
+  right:15px;
+  bottom:15px;
+  border:1px solid #f0a591;
+  padding:20px;
+  text-align:center;
+  box-shadow: 0 5px 10px rgba(9,0,0,0.5);
+  
+}
+
+.box-solution span{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  box-sizing: border-box;
+  
+}
+
+.box-solution span:nth-child(1)
+{
+  transform:rotate(0deg);
+}
+
+.box-solution span:nth-child(2)
+{
+  transform:rotate(90deg);
+}
+
+.box-solution span:nth-child(3)
+{
+  transform:rotate(180deg);
+}
+
+.box-solution span:nth-child(4)
+{
+  transform:rotate(270deg);
+}
+
+.box-solution span:before
+{
+  content: '';
+  position: absolute;
+  width:100%;
+  height: 4px;
+  background: #1d9dd8;
+  animation: animate 4s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+  transform:scaleX(0);
+  transform-origin: left;
+  }
+  50%
+  {
+    transform:scaleX(1);
+  transform-origin: left;
+  }
+  50.1%
+  {
+    transform:scaleX(1);
+  transform-origin: right;
+    
+  }
+  
+  100%
+  {
+    transform:scaleX(0);
+  transform-origin: right;
+    
+  }
+  
+  
+} 
+
+
+/* box solution 1 */
+
+.box-solution1 {
+    position: absolute;
+    top: 50%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    width: 96%;
+    height: auto;
+    /* background: #111845a6; */
+    box-sizing: border-box;
+    overflow: hidden;
+    /* box-shadow: 0 20px 50px rgb(23, 32, 90); */
+    /* border: 2px solid #2a3cad; */
+    /* color: white; */
+    /* padding: 20px; */
+}
+
+.box-solution1:before{
+  content: '';
+  position:absolute;
+  top:0;
+  left:-100%;
+  width:100%;
+  height:100%;
+  background: rgba(255,255,255,0.1);
+  transition:0.5s;
+  pointer-events: none;
+}
+
+.box-solution1:hover:before{
+  left:-50%;
+  transform: skewX(-5deg);
+}
+
+
+.box-solution1 .content{
+  position:absolute;
+  top:15px;
+  left:15px;
+  right:15px;
+  bottom:15px;
+  border:1px solid #f0a591;
+  padding:20px;
+  text-align:center;
+  box-shadow: 0 5px 10px rgba(9,0,0,0.5);
+  
+}
+
+.box-solution1 span{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  box-sizing: border-box;
+  
+}
+
+.box-solution1 span:nth-child(1)
+{
+  transform:rotate(0deg);
+}
+
+.box-solution1 span:nth-child(2)
+{
+  transform:rotate(90deg);
+}
+
+.box-solution1 span:nth-child(3)
+{
+  transform:rotate(180deg);
+}
+
+.box-solution1 span:nth-child(4)
+{
+  transform:rotate(270deg);
+}
+
+.box-solution1 span:before
+{
+  content: '';
+  position: absolute;
+  width:100%;
+  height: 4px;
+  background: #fff;
+  animation: animate 4s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+  transform:scaleX(0);
+  transform-origin: left;
+  }
+  50%
+  {
+    transform:scaleX(1);
+  transform-origin: left;
+  }
+  50.1%
+  {
+    transform:scaleX(1);
+  transform-origin: right;
+    
+  }
+  
+  100%
+  {
+    transform:scaleX(0);
+  transform-origin: right;
+    
+  }
+  
+  
+} 
+
+.gradient-color{background-color: #030a16;
+background-image: linear-gradient(0deg, #030a16 0%, #1d9dd8 100%);
+}
+
+.pad50{padding: 30px 0;}
+
+.our-solu{position: relative;}
+.texture{background-color: #ffffff;
+/*background-image: url("https://www.transparenttextures.com/patterns/ag-square.png");*/
+    background-image: url(../images/bg2.png);
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */}
+
+
+
+
+
+/* Hover imge show botton */
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 95%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.5s ease;
+}
+
+.container:hover .overlay {
+  display: block;
+  background: rgba(0, 0, 0, .3);
+}
+
+
+
+.title {
+  position: absolute;
+  width: 500px;
+  left: 0;
+  top: 120px;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  z-index: 1;
+  transition: top .5s ease;
+}
+
+.container:hover .title {
+  top: 90px;
+}
+
+.button {
+      position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 238px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity .35s ease;
+}
+
+.button a {
+  width: 200px;
+  padding: 12px 48px;
+  text-align: center;
+  color: white;
+  border: solid 2px white;
+  z-index: 1;
+}
+
+.container:hover .button {
+  opacity: 1;
+}
+.about-us-p {
+    position: absolute;
+    color: #fff;
+    /* margin-top: 29px; */
+    font-weight: 600;
+    text-align: center;
+    font-size: 20px;
+    top: 310px;
+    left: 30%;
+}

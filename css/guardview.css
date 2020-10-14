@@ -1,0 +1,386 @@
+body {
+    font-family: 'ProximaNovaA-Thin';
+  color:#909090;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  
+    /*font-family: 'ProximaNova-Black';*/
+    font-family: 'ProximaNovaA-Thin';
+    font-weight: 600;
+    color: #1f1a17;
+    margin: 0;
+}
+
+p {
+  font-family: 'ProximaNovaA-Thin';
+  color: #fff;
+  font-size: 17px;
+  font-weight:bold;
+}
+
+
+@font-face {
+  font-family: 'ProximaNova-Black';
+  src: url('../fonts/ProximaNova-Black.eot');
+  src: url('../fonts/ProximaNova-Black.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/ProximaNova-Black.svg#ProximaNova-Black') format('svg'),
+       url('../fonts/ProximaNova-Black.ttf') format('truetype'),
+       url('../fonts/ProximaNova-Black.woff') format('woff'),
+       url('../fonts/ProximaNova-Black.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProximaNovaA-Thin';
+  src: url('../fonts/ProximaNovaA-Thin.eot');
+  src: url('../fonts/ProximaNovaA-Thin.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/ProximaNovaA-Thin.svg#ProximaNovaA-Thin') format('svg'),
+       url('../fonts/ProximaNovaA-Thin.ttf') format('truetype'),
+       url('../fonts/ProximaNovaA-Thin.woff') format('woff'),
+       url('../fonts/ProximaNovaA-Thin.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'ProximaNova-Extrabld';
+  src: url('../fonts/ProximaNova-Extrabld.eot');
+  src: url('../fonts/ProximaNova-Extrabld.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/../fonts/ProximaNova-Extrabld.svg#ProximaNova-Extrabld') format('svg'),
+       url('../fonts/ProximaNova-Extrabld.ttf') format('truetype'),
+       url('../fonts/ProximaNova-Extrabld.woff') format('woff'),
+       url('../fonts/ProximaNova-Extrabld.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
+.banner_inner{
+
+    background: url(../images/guard-bn.png) no-repeat center;
+    background-attachment: fixed;
+        background-size: cover !important;
+    position: relative;
+    height: 80vh;
+}
+
+
+section.banner_inner:after {
+    background-image: url(../images/gaurdview.png);
+    content: "";
+    background-repeat: no-repeat;
+    position: absolute;
+    display: block;
+    top: 143px;
+    /* background: red; */
+    left: 27px;
+    /* z-index: 11111; */
+    width: 285px;
+    height: 300px;
+}
+
+/* button base */
+/*.back {*/
+/*    width: 33%;*/
+/*    height: 200px;*/
+/*    float: left;*/
+/*    background-color: #eeeeee;*/
+/*    border: 10px;*/
+/*    border-color: #ffffff;*/
+/*    border-style: solid;*/
+/*    box-sizing: border-box;*/
+/*    -webkit-box-sizing: border-box;*/
+/*    -moz-box-sizing: border-box;*/
+/*    counter-increment: bc;*/
+/*    padding: 0px 5px 5px 5px;*/
+/*}*/
+
+/*.back:before {*/
+/*    content: counter(bc) "_";*/
+/*    position: absolute;*/
+/*    padding: 10px;*/
+/*}*/
+
+/*.button_base {*/
+/*    margin: 0;*/
+/*    border: 0;*/
+/*    font-size: 18px;*/
+/*    position: relative;*/
+/*    top: 50%;*/
+/*    left: 50%;*/
+/*    margin-top: -25px;*/
+/*    margin-left: -100px;*/
+/*    width: 200px;*/
+/*    height: 50px;*/
+/*    text-align: center;*/
+/*    box-sizing: border-box;*/
+/*    -webkit-box-sizing: border-box;*/
+/*    -moz-box-sizing: border-box;*/
+/*    -webkit-user-select: none;*/
+/*    cursor: default;*/
+/*}*/
+
+/*.button_base:hover {*/
+/*    cursor: pointer;*/
+/*}*/
+
+
+/*.b03_skewed_slide_in {*/
+/*    overflow: hidden;*/
+/*    border: #000000 solid 1px;*/
+/*}*/
+
+/*.b03_skewed_slide_in div {*/
+/*    position: absolute;*/
+/*    text-align: center;*/
+/*    width: 100%;*/
+/*    height: 50px;*/
+/*    box-sizing: border-box;*/
+/*    -webkit-box-sizing: border-box;*/
+/*    -moz-box-sizing: border-box;*/
+/*    padding: 10px;*/
+/*}*/
+
+/*.b03_skewed_slide_in div:nth-child(1) {*/
+/*    color: #000000;*/
+/*    background-color: #ffffff;*/
+/*}*/
+
+/*.b03_skewed_slide_in div:nth-child(2) {*/
+/*    background-color: #000000;*/
+/*    width: 230px;*/
+/*    transition: all 0.2s ease;*/
+/*    -webkit-transition: all 0.2s ease;*/
+/*    -moz-transition: all 0.2s ease;*/
+/*    transform: translate(-250px, 0px) skewX(-30deg);*/
+/*    -webkit-transform: translate(-250px, 0px) skewX(-30deg);*/
+/*    -moz-transform: translate(-250px, 0px) skewX(-30deg);*/
+/*}*/
+
+/*.b03_skewed_slide_in div:nth-child(3) {*/
+/*    color: #ffffff;*/
+/*    left: -200px;*/
+/*    transition: left 0.2s ease;*/
+/*    -webkit-transition: left 0.2s ease;*/
+/*    -moz-transition: left 0.2s ease;*/
+/*}*/
+
+/*.b03_skewed_slide_in:hover div:nth-child(2) {*/
+/*    transition: all 0.5s ease;*/
+/*    -webkit-transition: all 0.5s ease;*/
+/*    -moz-transition: all 0.5s ease;*/
+/*    transform: translate(-15px, 0px) skewX(-30deg);*/
+/*    -webkit-transform: translate(-15px, 0px) skewX(-30deg);*/
+/*    -moz-transform: translate(-15px, 0px) skewX(-30deg);*/
+/*}*/
+
+/*.b03_skewed_slide_in:hover div:nth-child(3) {*/
+/*    left: 0px;*/
+/*    transition: left 0.30000000000000004s ease;*/
+/*    -webkit-transition: left 0.30000000000000004s ease;*/
+/*    -moz-transition: left 0.30000000000000004s ease;*/
+/*}*/
+
+.org-bg{background-color:#10264a; padding: 0px 10px 0px 10px; background-color: #10264a;
+background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */}
+
+.Candidates{text-align:center;    margin-top: 15px; font-size: 20px;}
+
+section.org-bg:before {
+    content: '';
+    position: absolute;
+    right: 32px;
+    /* top: 101px; */
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 30px solid #ffffff;
+    clear: both;
+    /* bottom: 186px; */
+}
+
+.back:after {
+    content: '';
+    position: relative;
+    left: 70px;
+    top: 22px;
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 25px solid #ffffff;
+    clear: both;
+    bottom: -155px;
+}
+
+
+.back:hover:after {
+    content: '';
+    position: relative;
+    left: 70px;
+    top: 22px;
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 25px solid #fff;
+    clear: both;
+    bottom: -155px;
+}
+
+.bdr {
+  width: auto;
+  height: auto;
+  border-top: 3px solid #1d9dd8;
+  border-bottom: 3px solid #1d9dd8;
+  position: relative;
+}
+
+.bdr::before, .bdr::after {
+    content: '';
+    background-color: #1d9dd8;
+    top: -10px;
+    bottom: -10px;
+    left: 5px;
+    position: absolute;
+    width: 3px;
+}
+
+.bdr::after {
+    left: auto;
+    right: 5px;
+}
+
+/* End Button base */
+
+.FEATURES{
+    
+    color:#1d9dd8;
+    padding: 20px;
+    
+}
+
+.trustview{
+    
+    color:#212121;
+    padding:0 20px;
+}
+
+p.border1 {
+    border-top: 2px solid #fff;
+    padding: 10px;
+    border-bottom: 2px solid #1d9dd8;
+    border-left: 2px solid #1d9dd8;
+    border-right: 2px solid #fff;
+    font-size: 25px;
+}
+
+p.border1:after {
+    content: '';
+    position: absolute;
+    right: 43%;
+    /* top: 101px; */
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #1d9dd8;
+    clear: both;
+    bottom: 49px;
+}
+
+.Operators{color:#1d9dd8;}
+.Candidates{margin-top:10px;}
+
+
+.banner_inner1{
+
+    background: url(../images/BANNER-g.png) no-repeat center;
+        background-size: cover !important;
+    position: relative;
+    height: 100vh;
+}
+
+.blueBg1 {
+    width: 100%;
+    /*height: 100vh;*/
+}
+.credible{color:#1d9dd8;font-size: 22px;}
+.credible1{color:#1d9dd8;font-size: 22px;}
+
+.Basis{color:#212121; margin-top: 20px;}
+
+span.ff {
+    float: left;
+}
+
+
+.reliable {
+    width: 90%;
+    position: relative;
+    margin-left: 54px;
+}
+
+span.ff img {
+    width: 50px;
+}
+
+h3.credible:after {
+    position: absolute;
+    width: 154px;
+    left: 0;
+    height: 4px;
+    display: block;
+    top: 32px;
+    text-align: center;
+    content: "";
+    background: rgb(19,40,76);
+    background: linear-gradient(135deg, rgba(19,40,76,1) 50%, rgba(56,192,240,1) 50%);
+}
+
+h3.credible1:after {
+    position: absolute;
+    width: 154px;
+    left: 20;
+    height: 4px;
+    display: block;
+    top: 32px;
+    text-align: center;
+    content: "";
+    background: rgb(19,40,76);
+    background: linear-gradient(135deg, rgba(19,40,76,1) 50%, rgba(56,192,240,1) 50%);
+}
+.ss{ 
+	background: linear-gradient(-45deg, #d6d6d6, #fbfbfb, #ffffff, #d6d6d6);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+.BENEFITS{color: #fff;
+    padding: 11px 0; }
