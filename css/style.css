@@ -1332,8 +1332,214 @@ li.br {
 
 
 
+/*################# New CSS Start Here ################################### */
+
+/* #### Lemon/Milk Fonts */
+
+@font-face {
+    font-family: 'Lemon/Milk Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Lemon/Milk Regular'), url('../lemon-font/LemonMilk.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Lemon/Milk Regular italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Lemon/Milk Regular italic'), url('../lemon-font/LemonMilkitalic.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Lemon/Milk light italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Lemon/Milk light italic'), url('../lemon-font/LemonMilklightitalic.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Lemon/Milk Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Lemon/Milk Bold'), url('../lemon-font/LemonMilkbold.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Lemon/Milk Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Lemon/Milk Bold'), url('../lemon-font/LemonMilkbolditalic.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Lemon/Milk light Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Lemon/Milk light Regular'), url('../lemon-font/LemonMilklight.woff') format('woff');
+    }
 
 
 
+    @font-face {
+        font-family: 'Proxima';
+        src: url('./../fonts/proxima_nova/Proxima-Nova-Thin.otf') format('opentype');
+        font-weight: 100;
+     }
+     @font-face {
+        font-family: 'Proxima';
+        src: url('./../fonts/proxima_nova/Proxima-Nova-Regular.otf') format('opentype');
+        font-weight: 400;
+     }
+     @font-face {
+        font-family: 'Proxima';
+        src: url('./../fonts/proxima_nova/Proxima-Nova-Bold.otf') format('opentype');
+        font-weight: 600;
+     }
+     @font-face {
+        font-family: 'Proxima';
+        src: url('./../fonts/proxima_nova/Proxima-Nova-Extrabold.otf') format('opentype');
+        font-weight: 800;
+     }
+     @font-face {
+        font-family: 'Proxima';
+        src: url('./../fonts/proxima_nova/Proxima-Nova-Black.otf') format('opentype');
+        font-weight: 900;
+     }
 
 
+.mh-100vh{
+    min-height: 100vh;
+}
+.banner-section{
+    background-image: url(../images/nitc/website-01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-darkblue{
+    color: #11284A;
+}
+.banner-section p {
+    font-size: 23px;
+    font-family: 'Lemon/Milk light Regular';
+    letter-spacing: 5px;
+}
+.secion-wrappper{
+    padding: 100px 0px;
+}
+
+.banner-section p span{
+    margin-right: 5px;
+}
+.section1{
+    background-image: url(../images/nitc/website-02.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.section2{
+    background-image: url(../images/nitc/white-with-arrows.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: bottom;
+}
+.section3 {
+    background-image: url(../images/nitc/website-11.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-color: #a5b5fa;
+}
+
+.section4 {
+    background-image: url(../images/nitc/website-10.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-color: #a5b5fa;
+}
+
+.section5 {
+    background-image: url(../images/nitc/website-09.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-color: #a5b5fa;
+}
+
+.section6 {
+    background-image: url(../images/nitc/website-10.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-color: #a5b5fa;
+}
+
+.section7 {
+    background-image: url(../images/nitc/website-09.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-color: #a5b5fa;
+}
+.f-16{
+    font-size: 16px !important;
+}
+.f-18{
+    font-size: 18px !important;
+}
+.f-20{
+    font-size: 20px !important;
+}
+.text-black{
+    color: #000 !important; 
+}
+.proxima{
+    font-family: 'Proxima';
+}
+
+.btn-dark{
+    background-color: #110440 !important;
+    color: #110440 !important;
+}
+
+.btn-dark.rounded{
+    border-radius: 40px !important;
+}
+.centered-block{
+
+}
+.btn-style1 {
+    padding: 14px 28px !important;
+}
+.separator-right{
+    position: relative;
+}
+.separator-right::after{
+    content: "";
+    position: absolute;
+    height: 200px;
+    width: 2px;
+    background-color: #000;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+@media(max-width:768px){
+    .img-right{
+        order: -1;
+    }
+    .separator-right::after{
+        display: none;
+    }
+    .side-img{
+        max-width: 70%;
+        display: block;
+        margin: 0 auto;
+    }
+}
