@@ -1410,7 +1410,7 @@ arrows: false,
  autoplay:true,
 dots: true,
 vertical: false,
-verticalSwiping: true
+verticalSwiping: false
     
 });
 
