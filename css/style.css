@@ -1543,3 +1543,95 @@ li.br {
         margin: 0 auto;
     }
 }
+
+
+.aliterview-banner{
+
+    background-image: url(../images/alterview/alterview-banner-bg.jpg);
+    background-position: right bottom;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+.text-alter-blue{
+    color: #25326f !important;
+}
+.text-orange{
+    color: #f15a29 !important;
+}
+.bg-alter-blue{
+    background-color: #25326f !important;
+}
+.text-gray{
+    color: #4d4d4f !important;
+}
+.title-border-lg.border-left{
+    border-left-width: 20px !important;
+}
+.border-orange.border-left{
+    border-color: #f15a29  !important;
+}
+.title-border-sm.border-left{
+    border-left-width: 5px !important;
+}
+.aliterview-banner .banner-text h4 {
+    font-size: 2.4rem;
+    font-weight: 600 !important;
+}
+
+.aliterview-banner .banner-text h2 {
+    margin-bottom: 10px !important;
+    font-size: 3rem;
+    line-height: 2.8rem;
+}
+.aliterview-banner .banner-text p {
+    font-size: 1.1rem !important;
+    margin-top: 8px;
+    white-space: break-spaces;
+}
+.bg-gray{
+    background-color: #e9ecef;
+}
+.object-fit-cover{
+    object-fit: cover;
+}
+.solutions .solution-row > div{
+    background-color: #f15a29 ;
+}
+.solutions .solution-row > div h4 {
+    color: #25326f ;
+}
+.solutions .solution-row > div:nth-child(2n){
+    background-color: #25326f !important;
+}
+.solutions .solution-row > div:nth-child(2n) h4{
+    color: #f15a29;
+}
+.e3e-img{
+    max-width: 450px !important;
+    margin: 0 auto;
+}
+@media(max-width:992px){
+    .img-lg-right{
+        order: -1;
+    }
+}
+@media only screen and   (min-width: 768px) and (max-width: 992px){
+    .solutions .solution-row.row-2 > div{
+        background-color: #25326f ;
+    }
+    .solutions .solution-row.row-2 > div h4 {
+        color: #f15a29 ;
+    }
+    .solutions .solution-row.row-2 > div:nth-child(n+2){
+        background-color: #f15a29 !important;
+    }
+    .solutions .solution-row.row-2 > div:nth-child(n+2) h4{
+        color: #25326f;
+    }
+}
+@media(max-width:768px){
+    .offerings .row{
+        margin: 0px 30px;
+        margin-bottom: 30px;
+    }
+}
