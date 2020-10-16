@@ -1610,6 +1610,25 @@ li.br {
     max-width: 450px !important;
     margin: 0 auto;
 }
+.now-more-box{
+    z-index: 1;
+    opacity: 1;
+    transition: all ease-in-out 600ms;
+}
+.now-more-box.hide{
+    opacity: 0;
+    z-index: 0;
+}
+.read-more-btn{
+    left: 50%;
+    bottom: 100px;
+    transform: translateX(-50%);
+}
+.btn-orange {
+    background-color: #f15a29 !important;
+    border-color: #f15a29 !important;
+    color: white !important;
+}
 @media(max-width:992px){
     .img-lg-right{
         order: -1;

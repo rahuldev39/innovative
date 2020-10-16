@@ -287,11 +287,11 @@ monuments of historical importance.</p>
       </div>
 </section>
 
-<section class="secion-wrappper   mh-100vh  d-flex align-items-center justify-content-center">
+<section class="secion-wrappper position-relative  mh-100vh  d-flex align-items-center justify-content-center">
 
   <div class="container">
 
-    <div class="row align-items-center">
+    <div class="row align-items-center now-more-box position-relative py-4  bg-white">
       <div class="col-md-6 mb-5 mb-md-0">
       <div class="title-border-sm border-orange border-left pl-3 mb-4">
           <h5 class="proxima font-weight-bold text-black  mb-2 text-alter-blue">WE BRING</h5>
@@ -313,12 +313,39 @@ period, based on a mutual-agreement.</p>
       </div>
     </div>
 
+    <div class="read-more-btn position-absolute text-center">
+      <div class="mb-4">
+        <img src="./images/undraw_click_here_2li1.svg" width="240" alt="">
+      </div>
+      
+      <a href="#" class="btn  btn-orange">Click here for view more</a>
+    </div>
+
   </div>
 </section>
 
 <?php include 'footer.php';?>
 
+<script src="js/isInViewport.jquery.js" ></script>
 
+<script>
+$(function(){
+
+$('.footer').isInViewport(function (status) {
+  if (status === 'entered') {
+    $('.now-more-box').addClass('hide')
+  }
+
+  if (status === 'leaved') {
+    $('.now-more-box').removeClass('hide')
+  }
+})
+
+});
+
+
+
+</script>
 
 </body>
 </html>
