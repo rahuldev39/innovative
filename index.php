@@ -270,9 +270,10 @@ p.genral {
   background: url(video/Exm_1_Low res.mp4) no-repeat center center/cover;
 }
 video {
-  min-width: 100%;
-  min-height: 100vh;
-  z-index: 1;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    object-fit: cover;
 }
 .overlay {
   width: 100%;
@@ -431,14 +432,11 @@ video {
 
 <div id="fullpage">
     <div class="section aboutus vertical-scrolling" id="section0">
-         
-          
           <div class="bg-video-wrap">
     <!--<video src="video/Exm_1_Low res.mp4" loop muted autoplay>-->
     <!--</video>-->
-    
     <video id="myVideos"  loop muted data-autoplay>
-  <source src="video/Exm_1_Low res.mp4" type="video/mp4">
+  <source src="video/banner-video.mp4" type="video/mp4">
 </video>
 
     
@@ -448,14 +446,21 @@ video {
     <div class="container">
                     <div class="one_banner">
                          
-                        <h3 class="homebdr" style="color:#fff; font-size:60px; font-weight:900;">Redefining Examination  </br>  Security Solutions  </br> In India</h3>
+                        <h3 class="homebdr" style="color:#fff; font-size:60px; font-weight:900;">
+                        Redefining Examination  
+                        </br>  Security Solutions  
+                        </br> In India
+                        </h3>
     
                         
                         <button class="video-btn modal-link" data-toggle="modal" data-target="#myModal">
-                <sky-svg class="sky-svg-loaded"> 
-<svg class="svg-play" enable-background="new 0 0 270 270" viewBox="0 0 270 270" xmlns="http://www.w3.org/2000/svg">
-    <path d="M113.448 177.89l58.58-42.53-58.58-42.866v63.824" fill="#030a16" id="play" stroke="#030a16" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="8"></path>
-    </svg></sky-svg><span>play video</span></button>
+                          <sky-svg class="sky-svg-loaded"> 
+                            <svg class="svg-play" enable-background="new 0 0 270 270" viewBox="0 0 270 270" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M113.448 177.89l58.58-42.53-58.58-42.866v63.824" fill="#030a16" id="play" stroke="#030a16" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="8"></path>
+                            </svg>
+                          </sky-svg>
+                        <span>play video</span>
+                        </button>
                     </div><!-- one_banner -->
                     
                     
