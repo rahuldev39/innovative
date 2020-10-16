@@ -1,0 +1,96 @@
+[23-Jul-2020 09:57:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/ninegrapes/public_html/IV/db_connection.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ninegrapes/public_html/IV/db_connection.php on line 8
+[23-Jul-2020 09:57:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/ninegrapes/public_html/IV/db_connection.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ninegrapes/public_html/IV/db_connection.php on line 8
+[23-Jul-2020 09:58:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/ninegrapes/public_html/IV/db_connection.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/ninegrapes/public_html/IV/db_connection.php on line 8
+[23-Jul-2020 09:59:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/ninegrapes/public_html/IV/db_connection.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/ninegrapes/public_html/IV/db_connection.php on line 2
+[23-Jul-2020 10:00:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/ninegrapes/public_html/IV/db_connection.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/ninegrapes/public_html/IV/db_connection.php on line 3
+[23-Jul-2020 10:00:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli() in /home/ninegrapes/public_html/IV/db_connection.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/ninegrapes/public_html/IV/db_connection.php on line 3
+[23-Jul-2020 11:16:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/ninegrapes/public_html/IV/db_connection.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/ninegrapes/public_html/IV/db_connection.php on line 7
+[23-Jul-2020 11:49:38 UTC] PHP Parse error:  syntax error, unexpected 'footer' (T_STRING), expecting ',' or ';' in /home/ninegrapes/public_html/IV/contactus.php on line 720
+[23-Jul-2020 11:49:44 UTC] PHP Parse error:  syntax error, unexpected 'footer' (T_STRING), expecting ',' or ';' in /home/ninegrapes/public_html/IV/contactus.php on line 720
+[23-Jul-2020 12:10:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/ninegrapes/public_html/IV/db_connection.php:7
+Stack trace:
+#0 /home/ninegrapes/public_html/IV/sendmail.php(4): include()
+#1 {main}
+  thrown in /home/ninegrapes/public_html/IV/db_connection.php on line 7
+[23-Jul-2020 12:53:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/ninegrapes/public_html/IV/db_connection.php:6
+Stack trace:
+#0 /home/ninegrapes/public_html/IV/sendmail.php(4): include()
+#1 {main}
+  thrown in /home/ninegrapes/public_html/IV/db_connection.php on line 6
+[24-Jul-2020 04:57:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/ninegrapes/public_html/IV/db_connection.php:6
+Stack trace:
+#0 /home/ninegrapes/public_html/IV/sendmail.php(8): include()
+#1 {main}
+  thrown in /home/ninegrapes/public_html/IV/db_connection.php on line 6
+[24-Jul-2020 05:03:19 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'ninegrap_ivcontactus'@'localhost' to database 'ninegrap_ivconatctus' in /home/ninegrapes/public_html/IV/db_connection.php on line 6
+[24-Jul-2020 05:03:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/ninegrapes/public_html/IV/db_connection.php:10
+Stack trace:
+#0 /home/ninegrapes/public_html/IV/sendmail.php(8): include()
+#1 {main}
+  thrown in /home/ninegrapes/public_html/IV/db_connection.php on line 10
+[24-Jul-2020 05:03:49 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'ninegrap_ivcontactus'@'localhost' to database 'ninegrap_ivconatctus' in /home/ninegrapes/public_html/IV/db_connection.php on line 6
+[24-Jul-2020 05:03:49 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/ninegrapes/public_html/IV/db_connection.php on line 10
+[24-Jul-2020 05:15:26 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'ninegrap_ivcontactus'@'localhost' to database 'ninegrap_ivconatctus' in /home/ninegrapes/public_html/IV/db_connection.php on line 6
+[24-Jul-2020 05:15:26 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/ninegrapes/public_html/IV/db_connection.php on line 10
+[24-Jul-2020 05:20:20 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'ninegrap_ivcontactus'@'localhost' to database 'ninegrap_ivconatctus' in /home/ninegrapes/public_html/IV/db_connection.php on line 6
+[24-Jul-2020 05:20:20 UTC] PHP Notice:  Trying to get property 'connect_error' of non-object in /home/ninegrapes/public_html/IV/db_connection.php on line 9
+[24-Jul-2020 05:23:10 UTC] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'ninegrap_ivcontactus'@'localhost' to database 'ninegrap_ivconatctus' in /home/ninegrapes/public_html/IV/db_connection.php on line 6
+[24-Jul-2020 05:29:40 UTC] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'ninegrap_ivcontactus'@'localhost' to database 'ninegrap_ivconatctus' in /home/ninegrapes/public_html/IV/db_connection.php on line 6
+[24-Jul-2020 05:32:11 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'ninegrap_ivcontactus'@'localhost' to database 'ninegrap_ivconatctus' in /home/ninegrapes/public_html/IV/db_connection.php on line 6
+[24-Jul-2020 05:32:14 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'ninegrap_ivcontactus'@'localhost' to database 'ninegrap_ivconatctus' in /home/ninegrapes/public_html/IV/db_connection.php on line 6
+[24-Jul-2020 05:32:39 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'ninegrap_ivcontactus'@'localhost' to database 'ninegrap_ivconatctus' in /home/ninegrapes/public_html/IV/db_connection.php on line 6
+[24-Jul-2020 05:37:43 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'ninegrap_ivcontactus'@'localhost' to database 'ninegrap_ivconatctus' in /home/ninegrapes/public_html/IV/db_connection.php on line 6
+[24-Jul-2020 05:37:47 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'ninegrap_ivcontactus'@'localhost' to database 'ninegrap_ivconatctus' in /home/ninegrapes/public_html/IV/db_connection.php on line 6
+[24-Jul-2020 05:41:35 UTC] PHP Warning:  mysqli_connect(): (HY000/1044): Access denied for user 'ninegrap_ivcontactus'@'localhost' to database 'ninegrap_ivconatctus' in /home/ninegrapes/public_html/IV/db_connection.php on line 6
+[24-Jul-2020 06:19:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ninegrapes/public_html/IV/db_connection.php:12) in /home/ninegrapes/public_html/IV/sendmail.php on line 62
+[24-Jul-2020 06:30:06 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/ninegrapes/public_html/IV/sendmail.php on line 21
+[24-Jul-2020 06:30:06 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/ninegrapes/public_html/IV/sendmail.php on line 24
+[24-Jul-2020 06:30:06 UTC] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home/ninegrapes/public_html/IV/sendmail.php on line 27
+[24-Jul-2020 06:44:16 UTC] PHP Warning:  mysqli_select_db() expects exactly 2 parameters, 1 given in /home/ninegrapes/public_html/IV/sendmail.php on line 20
+[24-Jul-2020 06:44:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqil_query() in /home/ninegrapes/public_html/IV/sendmail.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/ninegrapes/public_html/IV/sendmail.php on line 21
+[24-Jul-2020 06:47:18 UTC] PHP Parse error:  syntax error, unexpected '$message' (T_VARIABLE), expecting ',' or ';' in /home/ninegrapes/public_html/IV/sendmail.php on line 25
+[24-Jul-2020 07:01:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ninegrapes/public_html/IV/db_connection.php:13) in /home/ninegrapes/public_html/IV/sendmail.php on line 64
+[24-Jul-2020 07:05:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ninegrapes/public_html/IV/db_connection.php:13) in /home/ninegrapes/public_html/IV/sendmail.php on line 64
+[24-Jul-2020 07:08:45 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ninegrapes/public_html/IV/db_connection.php:13) in /home/ninegrapes/public_html/IV/sendmail.php on line 64
+[24-Jul-2020 07:36:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ninegrapes/public_html/IV/sendmail.php:24) in /home/ninegrapes/public_html/IV/sendmail.php on line 67
+[24-Jul-2020 08:34:33 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/ninegrapes/public_html/IV/sendmail.php on line 66
+[24-Jul-2020 08:35:40 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/ninegrapes/public_html/IV/sendmail.php on line 66
+[24-Jul-2020 08:40:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ninegrapes/public_html/IV/sendmail.php:26) in /home/ninegrapes/public_html/IV/sendmail.php on line 68
+[24-Jul-2020 08:41:10 UTC] PHP Notice:  Undefined index: full_name in /home/ninegrapes/public_html/IV/sendmail.php on line 14
+[24-Jul-2020 08:41:10 UTC] PHP Notice:  Undefined index: organization in /home/ninegrapes/public_html/IV/sendmail.php on line 15
+[24-Jul-2020 08:41:10 UTC] PHP Notice:  Undefined index: country in /home/ninegrapes/public_html/IV/sendmail.php on line 16
+[24-Jul-2020 08:41:10 UTC] PHP Notice:  Undefined index: email in /home/ninegrapes/public_html/IV/sendmail.php on line 17
+[24-Jul-2020 08:41:10 UTC] PHP Notice:  Undefined index: mobile_number in /home/ninegrapes/public_html/IV/sendmail.php on line 18
+[24-Jul-2020 08:41:10 UTC] PHP Notice:  Undefined index: remarks in /home/ninegrapes/public_html/IV/sendmail.php on line 19
+[24-Jul-2020 08:41:10 UTC] PHP Notice:  Undefined index: full_name in /home/ninegrapes/public_html/IV/sendmail.php on line 35
+[24-Jul-2020 08:41:10 UTC] PHP Notice:  Undefined index: organization in /home/ninegrapes/public_html/IV/sendmail.php on line 37
+[24-Jul-2020 08:41:10 UTC] PHP Notice:  Undefined index: country in /home/ninegrapes/public_html/IV/sendmail.php on line 39
+[24-Jul-2020 08:41:10 UTC] PHP Notice:  Undefined index: email in /home/ninegrapes/public_html/IV/sendmail.php on line 41
+[24-Jul-2020 08:41:10 UTC] PHP Notice:  Undefined index: mobile_number in /home/ninegrapes/public_html/IV/sendmail.php on line 43
+[24-Jul-2020 08:41:10 UTC] PHP Notice:  Undefined index: remarks in /home/ninegrapes/public_html/IV/sendmail.php on line 45
+[24-Jul-2020 08:41:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ninegrapes/public_html/IV/sendmail.php:14) in /home/ninegrapes/public_html/IV/sendmail.php on line 67
+[24-Jul-2020 08:46:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ninegrapes/public_html/IV/sendmail.php:28) in /home/ninegrapes/public_html/IV/sendmail.php on line 70

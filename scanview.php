@@ -75,14 +75,14 @@ The solution also facilitates live monitoring of the scanning process and reconc
     <div class="container-fulid">
         <div class="jumbotron mb-0" style="background:inherit;padding-top: 45px;">
             <div class="row">
-                <div class="col-md-6" style="background-image: url(images/strip.png); background-repeat: no-repeat; margin-bottom: 20px; margin-left: 15px;">
+                <div class="col-md-6" style="background-image: url(images/strip.png); background-repeat: no-repeat; margin-bottom: 20px">
                             <h3 class="BENEFITS">FEATURES & BENEFITS</h3>
                         </div>
                         <div class="col-md-6"></div>
                 <div class="col-md-12">
                 
                 <!--col-->
-                <div class="row">
+                <div class="row no-gutters">
                     <div class="col-md-6">
                         <span class="ff"><img src="images/01s.png"></span>
                         <div class="reliable">

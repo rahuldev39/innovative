@@ -258,11 +258,14 @@ body.fp-responsive.fp-viewing-Footer .navbar-brand {
         padding-bottom: 48px;
         height: auto;
         padding-top: 90px;
+        min-height: auto !important;
     }
 	#section5 .photoImg {
 		height: 389px;
 	}
-
+    .blueBg{
+        min-height: auto !important;
+    }
 
 	#section2 .blueBg img {
 		width: 50% !important;

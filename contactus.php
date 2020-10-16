@@ -32,7 +32,11 @@
     width: 100%;
 }	
 
-.mapWrapper{position:absolute;width:100%;height:100%}
+.mapWrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
 .mapWrapper>img{display:block;margin-left:auto;margin-right:auto;margin-top:5px;position:relative;margin-bottom:5px;width:90%;-moz-animation:widthChange 1s;-ms-animation:widthChange 1s;-webkit-animation:widthChange 1s;animation:widthChange 1s;-moz-animation-duration:2s;-ms-animation-duration:2s;-webkit-animation-duration:2s;animation-duration:2s}
 .imageOverContactUs{background-image:url("images/India Map.svg ");position:absolute;width:100%;height:100%;top:0;bottom:0;left:0;right:0;z-index:-1}
 .iconsMap{left:10%;top:10%;margin:-14px 0 0 -14px;-webkit-animation-name:bounce-animation;animation-name:bounce-animation;-webkit-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-duration:3s;animation-duration:3s;z-index:1;background-repeat:no-repeat}
@@ -419,18 +423,18 @@ from{opacity:0;bottom:-300%}
 }
 .get{position:relative;
     margin-bottom:20px;
+    padding-bottom:20px
 }
-
 
 h1.get:after {
     position: absolute;
     width: 290px;
-    left: 39%;
+    left: 50%;
     /* right: 64px; */
     height: 8px;
     /* background: red; */
     display: block;
-    top: 50px;
+    bottom: 0px;
     text-align: center;
     content: "";
     /* margin: 0 auto; */
@@ -438,6 +442,7 @@ h1.get:after {
     /* background: linear-gradient(90deg, rgba(56,192,240,1) 50%, rgba(19,40,76,1) 50%); */
     background: rgb(19,40,76);
     background: linear-gradient(135deg, rgba(19,40,76,1) 50%, rgba(56,192,240,1) 50%);
+    transform: translateX(-50%);
 }
    
 </style>
