@@ -168,9 +168,12 @@ h1.about-us1:after {
     background: rgb(19,40,76);
     background: linear-gradient(135deg, rgba(19,40,76,1) 50%, rgba(56,192,240,1) 50%);
 }
-.leader{background-color: #030a16;
-background-image: linear-gradient(0deg, #030a16 0%, #1d9dd8 100%);
-     padding: 51px 35px 37px;}
+.leader {
+  background-color: #030a16;
+  background-image: linear-gradient(0deg, #030a16 0%, #1d9dd8 100%);
+  padding: 30px !important;
+  height: 100%;
+}
 .leadership{margin-top: 40px; color:#1d9dd8;}
 
 .Lead {
@@ -198,7 +201,7 @@ h2.leadership:after {
     position: relative;
   
     width: 100%;
-    height: auto;
+    height: 100%;
     /* background: #111845a6; */
     box-sizing: border-box;
     overflow: hidden;
@@ -321,7 +324,7 @@ h2.leadership:after {
     position: relative;
 
     width:100%;
-    height: auto;
+    height: 100%;
     /* background: #111845a6; */
     box-sizing: border-box;
     overflow: hidden;
