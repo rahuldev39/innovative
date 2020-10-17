@@ -458,7 +458,7 @@ background-image: linear-gradient(0deg, #030a16 0%, #1d9dd8 100%);
   transition: background 0.5s ease;
 }
 
-.container:hover .overlay {
+.container:hover .overlay,.container-fluid:hover .overlay {
   display: block;
   background: rgba(0, 0, 0, .3);
 }
@@ -479,7 +479,7 @@ background-image: linear-gradient(0deg, #030a16 0%, #1d9dd8 100%);
   transition: top .5s ease;
 }
 
-.container:hover .title {
+.container:hover .title, .container-fluid:hover .title{
   top: 90px;
 }
 
@@ -503,7 +503,7 @@ background-image: linear-gradient(0deg, #030a16 0%, #1d9dd8 100%);
   z-index: 1;
 }
 
-.container:hover .button {
+.container:hover .button, .container-fluid:hover .button{
   opacity: 1;
 }
 .about-us-p {

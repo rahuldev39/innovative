@@ -81,12 +81,12 @@ while ensuring safety against COVID </p>
               </div>
             </div>
             </div>
-            <div class="col-md-7 pad-l" style="padding-left: 0px;">
+            <div class="col-md-7 pad-l" >
                 <div class="single-img">
                   <img style="height: 437px" src="images/Trustview+.jpg" class="w-100">
                 </div>
                    <div class="overlay"></div>
-  <div class="button"><a href="#"> KNOW MORE </a>  
+  <div class="button solution-btn"><a href="#"> KNOW MORE </a>  
             </div>
         </div>
     </div>
@@ -109,12 +109,12 @@ while ensuring safety against COVID </p>
       <div class="container-fluid">
         <div class="row">
             
-            <div class="col-md-7 pad-l" style="padding-right:0;">
+            <div class="col-md-7 pad-l" >
                 <div class="single-img">
                   <img style="height: 437px" src="images/Camview+.jpg" class="w-100">
                 </div>
                 <div class="overlay"></div>
-  <div class="button"><a href="#"> KNOW MORE </a>  
+  <div class="button solution-btn"><a href="#"> KNOW MORE </a>  
             </div>
                 
             </div>
@@ -169,12 +169,12 @@ And that’s where our third solution comes handy. TRACKview is a GPS enabled lo
               </div>
             </div>
             </div>
-            <div class="col-md-7 pad-l" style="padding-left: 0px;">
+            <div class="col-md-7 pad-l" >
                 <div class="single-img">
                   <img style="height: 437px" src="images/Liveview+.png" class="w-100">
                 </div>
                 <div class="overlay"></div>
-  <div class="button"><a href="#"> KNOW MORE </a>  
+  <div class="button solution-btn"><a href="#"> KNOW MORE </a>  
             </div>
             </div>
         </div>
@@ -200,12 +200,12 @@ And that’s where our third solution comes handy. TRACKview is a GPS enabled lo
       <div class="container-fluid">
         <div class="row">
             
-            <div class="col-md-7 pad-l" style="padding-right:0;">
+            <div class="col-md-7 pad-l" >
                 <div class="single-img">
                   <img style="height: 437px" src="images/GuardView+.png" class="w-100">
                 </div>
                 <div class="overlay"></div>
-  <div class="button"><a href="#"> KNOW MORE </a>  
+  <div class="button solution-btn"><a href="#"> KNOW MORE </a>  
             </div>
                 
             </div>
@@ -268,12 +268,12 @@ These evaluations can be used to cross-verify the results in future to eliminate
               </div>
             </div>
             </div>
-            <div class="col-md-7 pad-l" style="padding-left: 0px;">
+            <div class="col-md-7 pad-l" >
                 <div class="single-img">
                   <img style="height: 437px" src="images/scan-view.jpg" class="w-100">
                 </div>
                 <div class="overlay"></div>
-  <div class="button"><a href="#"> KNOW MORE </a>  
+  <div class="button solution-btn"><a href="#"> KNOW MORE </a>  
             </div>
             </div>
         </div>
