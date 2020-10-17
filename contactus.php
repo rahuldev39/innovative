@@ -25,12 +25,10 @@
 
 <style>
  .contactUsSection {
-
-    min-height: 600px;
     overflow: hidden;
     position: relative;
     width: 100%;
-}	
+}
 
 .mapWrapper {
     width: 100%;
@@ -456,13 +454,10 @@ h1.get:after {
         <div class="row">
             <div class="col-md-12">
                 <div class="cen">
-                <h2 style="text-align:center; color:#fff; width: 50%;
-  height: 50%;
+                <h2 style="text-align:center; color:#fff;
   font-size:65px;
   font-weight:bold;
-  margin: auto;
-  position: absolute;
-  top: 533px; left: 0; bottom: 0; right: 0;">CONTACT US</h2>
+  margin: auto;">CONTACT US</h2>
                 </div>
             </div>
         </div>
