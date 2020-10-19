@@ -405,74 +405,92 @@ video {
   font-size: 60px;
   /*font-size: 4.5rem;*/
 }
-    </style>-->
+.video-overlay {
+    left: 0px;
+    top: 0px;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.video-control span::before{
+    content: "\f04c";
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 32px;
+}
+.video-control.pause span::before{
+  content: "\f04b";
+  padding-left: 7px;
+}
+.video-control, .video-control:focus {
+    padding: 0px;
+    width: 70px;
+    height: 70px;
+    border: 3px solid #37bff0 !important;
+    color: #37bff0 !important;
+    border-radius: 50%;
+    padding-top: 3px;
+    opacity: .3;
+    position: relative;
+    text-decoration: none !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.video-control:hover{
+  color: white !important;
+  opacity: 1;
+  background-color: #37bff0;
+  text-decoration: none
+}
+.video-control:after{
+  width:100%;
+  height:100%;
+  position:absolute;
+  content:'';
+  left:0;
+  top:0;
+ border-radius:50%
+}
+.video-control:hover:after{
+  animation: pulse 1s infinite;
+}
+@keyframes pulse {
+  0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(13, 165, 222, 0.8);
+	}
+
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 20px rgba(13, 165, 222, 0) ;
+	}
+
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(13, 165, 222, 0);
+	}
+}
+</style>
 
 </head>
 <body>
-<!-- <div id="sitepop" class="modal fade">
-    <div class="modal-dialog">
-        <div class="modal-content">                        
-            <div class="modal-body">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-                <img src="images/Ultima-popup-new.jpg" style="width:100%;display: block;">
-            </div>
-        </div>
-    </div>
-</div> -->
-
-
-
-
 <?php include 'navigation.php';?>
 
-
-
-
 <div id="fullpage">
+
     <div class="section aboutus vertical-scrolling" id="section0">
-          <div class="bg-video-wrap">
-    <!--<video src="video/Exm_1_Low res.mp4" loop muted autoplay>-->
-    <!--</video>-->
-    <video id="myVideos"  loop muted data-autoplay>
-  <source src="video/banner-video.mp4" type="video/mp4">
-</video>
-
-    
-    
-    <!--<div class="overlay">-->
-    <!--</div>-->
-    <div class="container">
-                    <div class="one_banner">
-                         
-                        <h3 class="homebdr" style="color:#fff; font-size:60px; font-weight:900;">
-                        Redefining Examination  
-                        </br>  Security Solutions  
-                        </br> In India
-                        </h3>
-    
-                        
-                        <button class="video-btn modal-link" data-toggle="modal" data-target="#myModal">
-                          <sky-svg class="sky-svg-loaded"> 
-                            <svg class="svg-play" enable-background="new 0 0 270 270" viewBox="0 0 270 270" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M113.448 177.89l58.58-42.53-58.58-42.866v63.824" fill="#030a16" id="play" stroke="#030a16" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="8"></path>
-                            </svg>
-                          </sky-svg>
-                        <span>play video</span>
-                        </button>
-                    </div><!-- one_banner -->
-                    
-                    
-                    
-                    <a href="#About" data-event-category="Section" data-event-action="Click" data-event-name="Down Arrow">
-                        <img src="images/downarrow.svg" class="downarrow" />
-                    </a>
-            </div>
-    </div><!-- Main-->
+          <div class="bg-video-wrap position-relative">
+            <video id="myVideos"  loop muted data-autoplay>
+              <source src="video/banner-video.mp4" type="video/mp4">
+            </video>
+            <div class="video-overlay position-absolute w-100 h-100">
+              <a href="#" class="video-control ">
+                <span></span>
+              </a>
+          </div>  
+          </div> 
           
-
-        
     </div><!-- section0 -->
 
     <div class="section vertical-scrolling" id="section1">
@@ -1426,6 +1444,22 @@ if(videos){
 }
 video = jQuery('#myVideos').get()[0];
 	
+</script>
+
+
+<script>
+  var video = document.getElementById("myVideos");
+    $('.video-control').on('click', function(){
+      $(this).toggleClass('pause')
+      if(video.paused){
+        video.play();
+        }
+        else{
+            video.pause();
+        }
+    });
+  
+  
 </script>
 </body>
 </html>

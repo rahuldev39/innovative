@@ -1432,7 +1432,10 @@ li.br {
 .secion-wrappper{
     padding: 100px 0px;
 }
-
+.side-img {
+    max-height: 440px;
+    object-fit: contain;
+}
 .banner-section p span{
     margin-right: 5px;
 }
@@ -1616,12 +1619,12 @@ li.br {
     transition: all ease-in-out 600ms;
 }
 .now-more-box.hide{
-    opacity: 0;
+    opacity: .1;
     z-index: 0;
 }
-.read-more-btn{
+.read-more-btn {
     left: 50%;
-    bottom: 100px;
+    bottom: 42%;
     transform: translateX(-50%);
 }
 .btn-orange {
@@ -1629,6 +1632,8 @@ li.br {
     border-color: #f15a29 !important;
     color: white !important;
 }
+
+
 @media(max-width:992px){
     .img-lg-right{
         order: -1;

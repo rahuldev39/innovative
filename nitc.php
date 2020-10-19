@@ -48,7 +48,7 @@
 </section>
 
 
-<section class="secion-wrappper section1 mh-100vh d-flex align-items-center justify-content-center">
+<section class="secion-wrappper section1  d-flex align-items-center justify-content-center">
 
   <div class="container">
 
@@ -71,7 +71,7 @@
 </section>
 
 
-<section class="secion-wrappper section2 mh-100vh d-flex align-items-center justify-content-center">
+<section class="secion-wrappper section2  d-flex align-items-center justify-content-center">
 
   <div class="container">
     <div class="centered-block">
@@ -92,7 +92,7 @@
       </a>
     </div>
       </div>
-      <div class="col-md-6 img-right mb-5 mb-md-0 p-0 p-lg-5">
+      <div class="col-md-6 img-right mb-5 mb-md-0 p-0 px-lg-5">
         <img src="./images/nitc/website-03.png" class="w-100 side-img" alt="">
       </div>
   </div>
@@ -101,12 +101,12 @@
 </section>
 
 
-<section class="secion-wrappper section3 mh-100vh d-flex align-items-center justify-content-center">
+<section class="secion-wrappper section3  d-flex align-items-center justify-content-center">
 
   <div class="container">
     <div class="centered-block">
     <div class="row align-items-center">
-    <div class="col-md-6 mb-5 mb-md-0 p-0 p-lg-5 separator-right">
+    <div class="col-md-6 mb-5 mb-md-0 p-0 px-lg-5 separator-right">
         <img src="./images/nitc/website-04.png" class="w-100 side-img" alt="">
       </div>
       <div class="col-md-6  pl-md-5">
@@ -130,7 +130,7 @@
 </section>
 
 
-<section class="secion-wrappper section4 mh-100vh d-flex align-items-center justify-content-center">
+<section class="secion-wrappper section4  d-flex align-items-center justify-content-center">
 
   <div class="container">
     <div class="centered-block">
@@ -151,7 +151,7 @@
     </div>
       </div>
 
-      <div class="col-md-6 img-right mb-5 mb-md-0 p-0 p-lg-5  btn-style1">
+      <div class="col-md-6 img-right mb-5 mb-md-0 p-0 px-lg-5  btn-style1">
         <img src="./images/nitc/website-05.png" class="w-100 side-img" alt="">
       </div>
      
@@ -161,12 +161,12 @@
 </section>
 
 
-<section class="secion-wrappper section5 mh-100vh d-flex align-items-center justify-content-center">
+<section class="secion-wrappper section5  d-flex align-items-center justify-content-center">
 
   <div class="container">
     <div class="centered-block">
     <div class="row align-items-center">
-    <div class="col-md-6 mb-5 mb-md-0 p-0 p-lg-5 separator-right">
+    <div class="col-md-6 mb-5 mb-md-0 p-0 px-lg-5 separator-right">
         <img src="./images/nitc/website-06.png" class="w-100 side-img" alt="">
       </div>
       <div class="col-md-6 pl-md-5">
@@ -191,7 +191,7 @@
   </div>
 </section>
 
-<section class="secion-wrappper section6 mh-100vh d-flex align-items-center justify-content-center">
+<section class="secion-wrappper section6  d-flex align-items-center justify-content-center">
 
   <div class="container">
     <div class="centered-block">
@@ -212,7 +212,7 @@
     </div>
       </div>
 
-      <div class="col-md-6 img-right mb-5 mb-md-0 p-0 p-lg-5">
+      <div class="col-md-6 img-right mb-5 mb-md-0 p-0 px-lg-5">
         <img src="./images/nitc/website-07.png" class="w-100 side-img" alt="">
       </div>
      
@@ -222,12 +222,12 @@
 </section>
 
 
-<section class="secion-wrappper section7 mh-100vh d-flex align-items-center justify-content-center">
+<section class="secion-wrappper section7 d-flex align-items-center justify-content-center">
 
   <div class="container">
     <div class="centered-block">
     <div class="row align-items-center">
-    <div class="col-md-6 mb-5 mb-md-0 p-0 p-lg-5 separator-right">
+    <div class="col-md-6 mb-5 mb-md-0 p-0 px-lg-5 separator-right">
         <img src="./images/nitc/website-08.png" class="w-100 side-img" alt="">
       </div>
       <div class="col-md-6 pl-md-5">

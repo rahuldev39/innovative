@@ -314,11 +314,7 @@ period, based on a mutual-agreement.</p>
     </div>
 
     <div class="read-more-btn position-absolute text-center">
-      <div class="mb-4">
-        <img src="./images/undraw_click_here_2li1.svg" width="240" alt="">
-      </div>
-      
-      <a href="#" class="btn  btn-orange">Click here for view more</a>
+      <a href="#" class="btn btn-lg  btn-orange">Click here for view more</a>
     </div>
 
   </div>
