@@ -115,7 +115,7 @@
 
             <div class="col-md-5  pad-r background-img" style="">
 
-               <div class="box-solution1">
+               <div class="box-solution">
         <span></span>
         <span></span>
         <span></span>
@@ -204,7 +204,7 @@ And that’s where our third solution comes handy. TRACKview is a GPS enabled lo
 
             <div class="col-md-5  pad-r background-img" style="">
 
-               <div class="box-solution1">
+               <div class="box-solution">
         <span></span>
         <span></span>
         <span></span>
@@ -298,7 +298,7 @@ These evaluations can be used to cross-verify the results in future to eliminate
 
             <div class="col-md-5  pad-r background-img" style="">
 
-               <div class="box-solution1">
+               <div class="box-solution">
         <span></span>
         <span></span>
         <span></span>

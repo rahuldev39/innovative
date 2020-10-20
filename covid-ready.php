@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <title>Innovatiview</title> 
+   <title>Innovatiview</title>
    <link rel="shortcut icon" href="images/fav.jpg" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -22,23 +22,19 @@
 
 
 <style>
-    
-   
+
+
 </style>
 <body class="bg">
     <?php $page ='oursolution'; ?>
 <?php include 'navigation.php';?>
 
 
-<section class="banner_inner">
+<section class="banner_inner_covid">
     <div class="container">
       <div class="col-md-12 our-solu">
-<!--          <h1 class="our-solution-h1 wow fadeInUp">Covid Ready-->
-<!--Examination Security-->
-<!--Solution</h1>-->
-<!--          <p class="about-us-p" style="text-align:center;">Covid Ready-->
-<!--Examination Security-->
-<!--Solution</p>-->
+          <h1 class="our-solution-h1 wow fadeInUp">Covid Ready Examination Security Solution</h1>
+          <p class="about-us-p">An array of advanced solutions to make exams secure <br> today and tomorrow.</p>
       </div>
     </div><!-- End container-->
 </section>
@@ -48,7 +44,7 @@
    <section class="pad50 pad8 about gradient-color">
      <div class="container">
        <div class="col-md-12">
-           <h2 style="color:#fff; text-align:center;">Covid Ready Examination Security Solution</h2>
+           <!-- <h2 style="color:#fff; text-align:center;">Covid Ready Examination Security Solution</h2> -->
           <p class="solution-p wow fadeInUp" style="margin-top:10px;">Delivering an innovative COVID ready range of
 examination security solutions </br> to curb malpractices
 while ensuring safety against COVID </p>
@@ -77,16 +73,16 @@ while ensuring safety against COVID </p>
               <div class="leader" style="padding: 51px 35px 38px;">
                 <!--<h2 class=" text-left wow fadeInUp" style="color: #fff;">TRUST VIEW</h2>-->
                 <img src="images/trust1.png" style="width: 170px;">
-                <p class="wow fadeInUp" style="color:#fff;">The first and foremost challenge that haunts the examination sector is candidate impersonation in the exam halls. Actual candidate is replaced by a rogue subject expert to clear the examinations. To control this malpractice, it is essential to use TRUSTview, a biometric enabled candidate verification solution.  It matches the candidate’s live biometric features like fingerprint, iris and face with their biometric mapping already saved in the database (often Aadhar database) to allow attendance and entry.  </p>
+                <p class="wow fadeInUp" style="color:#fff;">TRUSTview+ is a credible contactless impersonation control solution that validates the authenticity of candidates during examination. Considering the current pandemic situation, TRUSTview+ offers Biometric verification basis on “no touch” IRIS and/or Facial Recognition technique. Alongside, it serves as an advanced tool for live attendance management and status monitoring.  </p>
               </div>
             </div>
             </div>
-            <div class="col-md-7 pad-l" >
+            <div class="col-md-7 pad-l position-relative">
                 <div class="single-img">
                   <img style="height: 437px" src="images/Trustview+.jpg" class="w-100">
                 </div>
                    <div class="overlay"></div>
-  <div class="button solution-btn"><a href="#"> KNOW MORE </a>  
+  <div class="button solution-btn"><a href="#"> KNOW MORE </a>
             </div>
         </div>
     </div>
@@ -108,20 +104,20 @@ while ensuring safety against COVID </p>
     <div id="mgmt-bio1">
       <div class="container-fluid">
         <div class="row">
-            
-            <div class="col-md-7 pad-l" >
+
+            <div class="col-md-7 pad-l">
                 <div class="single-img">
                   <img style="height: 437px" src="images/Camview+.jpg" class="w-100">
                 </div>
                 <div class="overlay"></div>
-  <div class="button solution-btn"><a href="#"> KNOW MORE </a>  
+  <div class="button solution-btn"><a href="#"> KNOW MORE </a>
             </div>
-                
+
             </div>
 
             <div class="col-md-5  pad-r background-img" style="">
 
-               <div class="box-solution1">
+               <div class="box-solution">
         <span></span>
         <span></span>
         <span></span>
@@ -130,7 +126,8 @@ while ensuring safety against COVID </p>
               <div class="leader" style="padding: 51px 35px 15px;">
                   <img src="images/cam1.png" style="width:170px;">
                 <!--<h2 class=" text-left wow fadeInUp" style="color: #fff;">CAM VIEW</h2>-->
-                <p class="wow fadeInUp" style="color:#fff;">To monitor all the candidates appearing for an examination throughout the nation simultaneously presents itself as the second major challenge. To overcome this obstacle, we have developed CAMview, a high-tech CCTV surveillance system that enables live-streaming of all exam centres at one command centre. At the command centre anything looking suspicious can be brought into notice due to close observation. It also has a major psychological advantage because candidates become more vigilant of their actions due to effective surveillance.  </p>
+                <p class="wow fadeInUp" style="color:#fff;">CAMview+ is a reliable and technologically superior digital surveillance system that enables live monitoring of examinations and crowding situation. Its centralized control mechanism enables monitoring of multiple examination centres at once, thus ensuring greater transparency and avoiding over-crowding situation.
+The solution also allows for retrieval of the video footage to resolve any future discrepancy and serves as a critical tool for fair conduct of examinations. </p>
               </div>
             </div>
             </div>
@@ -163,18 +160,17 @@ while ensuring safety against COVID </p>
               <div class="leader" style="padding: 51px 35px 16px;">
                   <img src="images/live.png" style="width:150px;">
                 <!--<h2 class=" text-left wow fadeInUp" style="color: #fff;">TRACK VIEW</h2>-->
-                <p class="wow fadeInUp" style="color:#fff;">Securing the transportation of sensitive examination documents/material is as big a challenge as the security during the examination. From printed question papers to OMR sheets, nothing should be tampered during the transportation process. 
-And that’s where our third solution comes handy. TRACKview is a GPS enabled locking system that minimises the risk of tampering and fudging of important exam documents. In case of attempted theft or tampering, it immediately notifies the authorities.
+                <p class="wow fadeInUp" style="color:#fff;">LIVEview+ is a real-time automated attendance system that strengthens the recognition process and at the same time makes it contactless. The candidate is verified through a barcode scanner on his/her admit card that already contains all candidate details.
   </p>
               </div>
             </div>
             </div>
-            <div class="col-md-7 pad-l" >
+            <div class="col-md-7 pad-l">
                 <div class="single-img">
                   <img style="height: 437px" src="images/Liveview+.png" class="w-100">
                 </div>
                 <div class="overlay"></div>
-  <div class="button solution-btn"><a href="#"> KNOW MORE </a>  
+  <div class="button solution-btn"><a href="#"> KNOW MORE </a>
             </div>
             </div>
         </div>
@@ -199,20 +195,20 @@ And that’s where our third solution comes handy. TRACKview is a GPS enabled lo
     <div id="mgmt-bio1">
       <div class="container-fluid">
         <div class="row">
-            
-            <div class="col-md-7 pad-l" >
+
+            <div class="col-md-7 pad-l">
                 <div class="single-img">
                   <img style="height: 437px" src="images/GuardView+.png" class="w-100">
                 </div>
                 <div class="overlay"></div>
-  <div class="button solution-btn"><a href="#"> KNOW MORE </a>  
+  <div class="button solution-btn"><a href="#"> KNOW MORE </a>
             </div>
-                
+
             </div>
 
             <div class="col-md-5  pad-r background-img" style="">
 
-               <div class="box-solution1">
+               <div class="box-solution">
         <span></span>
         <span></span>
         <span></span>
@@ -221,7 +217,7 @@ And that’s where our third solution comes handy. TRACKview is a GPS enabled lo
               <div class="leader" style="padding: 51px 35px 15px;">
                   <img src="images/gaurdview.png" style="width:170px;">
                 <!--<h2 class=" text-left wow fadeInUp" style="color: #fff;">CAM VIEW</h2>-->
-                <p class="wow fadeInUp" style="color:#fff;">To monitor all the candidates appearing for an examination throughout the nation simultaneously presents itself as the second major challenge. To overcome this obstacle, we have developed CAMview, a high-tech CCTV surveillance system that enables live-streaming of all exam centres at one command centre. At the command centre anything looking suspicious can be brought into notice due to close observation. It also has a major psychological advantage because candidates become more vigilant of their actions due to effective surveillance.  </p>
+                <p class="wow fadeInUp" style="color:#fff;">GUARDview+ is our COVID ready frisking solution with COVID protective features such as contact-less temperature screening, crowd management and entry/exit management along with traditional features such as search with HHMD devices to detect unauthorised gadgets and objects.  </p>
               </div>
             </div>
             </div>
@@ -262,18 +258,17 @@ And that’s where our third solution comes handy. TRACKview is a GPS enabled lo
               <div class="leader" >
                   <img src="images/san.png" style="width:170px;">
                 <!--<h2 class=" text-left wow fadeInUp" style="color: #fff;">SCAN VIEW</h2>-->
-                <p class="wow fadeInUp" style="color:#fff;">The next challenge presents itself in the form of OMR sheet fudging and data manipulation during offline examination. To eliminate this malpractice, we came up with SCANview, a centre based instant scanning solution that enables immediate scanning and evaluation of OMR sheets if required. 
-These evaluations can be used to cross-verify the results in future to eliminate room for fudging and data tampering. This solution is immensely effective in offline examinations.
+                <p class="wow fadeInUp" style="color:#fff;">SANview+ is a sanitisation program to keep the virus at bay and all candidates and staff protected during the course of examination. Every centre is deeply sanitised after before and after every batch with fumigation and sprays to ensure safety. PPE kits, masks, shields and sanatisers are also distributed timely to ensure 100% safety.
   </p>
               </div>
             </div>
             </div>
-            <div class="col-md-7 pad-l" >
+            <div class="col-md-7 pad-l">
                 <div class="single-img">
-                  <img style="height: 437px" src="images/scan-view.jpg" class="w-100">
+                  <img style="height: 437px" src="images/sanview_2.png" class="w-100">
                 </div>
                 <div class="overlay"></div>
-  <div class="button solution-btn"><a href="#"> KNOW MORE </a>  
+  <div class="button solution-btn"><a href="#"> KNOW MORE </a>
             </div>
             </div>
         </div>
@@ -316,7 +311,7 @@ These evaluations can be used to cross-verify the results in future to eliminate
 <?php include 'footer.php';?>
 
 <script>
-    
+
    $(document).on('click', '#video-id', function (e) {
     var video = $('video').get(0);
     if (video.paused === false) {
@@ -332,7 +327,7 @@ These evaluations can be used to cross-verify the results in future to eliminate
     $('.counter').each(function() {
   var $this = $(this),
       countTo = $this.attr('data-count');
-  
+
   $({ countNum: $this.text()}).animate({
     countNum: countTo
   },
@@ -349,9 +344,9 @@ These evaluations can be used to cross-verify the results in future to eliminate
       //alert('finished');
     }
 
-  });  
-  
-  
+  });
+
+
 
 });
 </script>
@@ -368,13 +363,13 @@ These evaluations can be used to cross-verify the results in future to eliminate
       }
    });
 });
-    
+
 </script>
 
 
 
 <script type="text/javascript">
-  
+
 
   (function(){
   // setup your carousels as you normally would using JS
@@ -407,7 +402,7 @@ These evaluations can be used to cross-verify the results in future to eliminate
 
 
 <script type="text/javascript">
-  
+
   $slideshow = $('.slider').slick({
        slidesToShow: 5,
         slidesToScroll: 2,
@@ -449,12 +444,12 @@ These evaluations can be used to cross-verify the results in future to eliminate
 
 
 <script type="text/javascript">
-  
+
 
 
 
 </script>
 
-  
+
 </body>
 </html>
