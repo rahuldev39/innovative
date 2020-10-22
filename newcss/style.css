@@ -567,12 +567,12 @@ p.diff {
     font-weight: 100;
     cursor:pointer;
 }
-#section2 .amenities_left {margin-top: 15px;}
 .amenities_left {
-    padding-top: 60px;
+    padding-top: 100px;
     max-width: 750px;
     margin-right: 0;
-    padding-right: 80px;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 .amenities_left span {
     color: #003c5b;
@@ -611,14 +611,15 @@ a.ultimaBtn1 {
 }
 
 .blueBg {
-    /*background: #003c5b;*/
+    /* background: #003c5b; */
     width: 100%;
     background-color: #030a16;
     background-image: linear-gradient(0deg, #030a16 0%, #1d9dd8 100%);
     padding-left: 20px;
     padding-right: 20px;
     min-height: 100vh;
-    padding-bottom: 48px;
+    padding-bottom: 30px;
+    padding-top: 100px;
 }
 
 .amenities .container {
@@ -768,9 +769,7 @@ a.ultimaBtn1 {
     margin-bottom: 0;
     margin-top: 10px;
 }
-.Specification .amenities_left {
-  padding-right: 0px;
-}
+
 .Specification .amenities_list ul li:after {
   display: none;
 }
@@ -1324,6 +1323,7 @@ img.box:hover {
 .amenities_left img {
     max-width: 90%;
     margin-top: 20px;
+    object-fit: contain;
 }
 
 .floore-right h4{
@@ -1331,7 +1331,6 @@ img.box:hover {
     font-size: 36px;
     margin-left: 20px;
     /* margin-top: 45px; */
-    padding-top: 70px;
     font-weight: bold;
     
 }
@@ -1356,8 +1355,9 @@ img.box:hover {
 .col-lg-7.col-md-12.aa {
     background-image: url(../images/paper-plane-03.png);
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: center bottom -54px;
     background-size: contain;
+    background-size: 90%;
 }
 
 
@@ -1481,7 +1481,7 @@ label {
 
 .brocher img {
     display: block;
-    height: 375px !important;
+    height: 318px !important;
     margin-top: 25px !important;
 }
 
@@ -1582,6 +1582,7 @@ h4.wow.fadeInUp.secure:after {
 
 @media (max-width: 992px)
 {
+    
     .one_banner .homebdr{
         font-size: 32px !important;
     }

@@ -619,7 +619,7 @@ video {
     <div class="section vertical-scrolling amenities Specification " id="section2">
         <div class="photoImg">
           <div class="container">
-                <div class="row gradient-bg">
+                <div class="row no-gutters gradient-bg">
                   <div class="col-lg-7 col-md-12 aa">
                     <div class="amenities_left Connectivity_list">
                      
@@ -634,8 +634,8 @@ video {
                     </div><!-- amenities_left -->
                   </div>
                   <div class="col-lg-5 col-md-12">
-                    <div class="blueBg pt-5">
-                        <div class="pt-4">
+                    <div class="blueBg">
+                        <div class="pt-3">
                 <div class="row">
            
            <div class="col-md-6 col-6">
@@ -745,8 +745,7 @@ video {
 
     <div class="section vertical-scrolling Specification amenities" id="section4">
         <div class="photoImg">
-          <div class="container">
-                <div class="row">
+        <div class="row no-gutters">
                    
                    <div class="col-lg-5 col-md-12" style="padding-left:0px;">
                    <div class="blueBg relative">
@@ -810,7 +809,6 @@ video {
                   </div>
                   
                 </div>
-          </div>
         </div>
     </div><!-- section2 -->  
 
