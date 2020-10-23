@@ -464,7 +464,14 @@ h1.get:after {
     </div>
 </section>
 
-
+<section class="px-4 py-5 text-center about gradient-color">
+      <div class="container">
+            <p class="solution-p wow fadeInUp m-0" style="margin-top:10px;">Delivering an innovative COVID ready range of
+  examination security solutions </br> to curb malpractices
+  while ensuring safety against COVID </p>
+        
+      </div>
+    </section>
 
 <!-- form section-->
 

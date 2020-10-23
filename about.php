@@ -36,10 +36,22 @@
     <div class="container">
       <div class="about-us wow fadeInUp">
           <h1 class="about-us1">Redefining Examination Security</h1>
-    <p class="about-us-p">We’re a dedicated team determined to deliver the best examination <br> security solutions slobally. </p>
+          <p class="about-us-p">We’re a dedicated team determined to deliver the best examination <br> security solutions slobally. </p>
       </div>
     </div><!-- End container-->
 </section>
+
+
+
+  <section class="px-4 py-5 text-center about gradient-color">
+      <div class="container">
+            <p class="solution-p wow fadeInUp m-0" style="margin-top:10px;">Delivering an innovative COVID ready range of
+  examination security solutions </br> to curb malpractices
+  while ensuring safety against COVID </p>
+        
+      </div>
+    </section>
+
 
 
 <!-- hover image-->
