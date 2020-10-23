@@ -451,17 +451,11 @@ h1.get:after {
 
 <section class="banner_inner">
     <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="cen">
-                <h2 style="text-align:center; color:#fff;
-  font-size:65px;
-  font-weight:bold;
-  margin: auto;">CONTACT US</h2>
-                </div>
-            </div>
-        </div>
-    </div>
+      <div class="col-md-12 text-center">
+          <h1 class="banner-title-h1 wow fadeInUp">Contact Us</h1>
+          <p class="banner-subtitle-p mt-0">An array of advanced solutions to make exams secure <br> today and tomorrow.</p>
+      </div>
+    </div><!-- End container-->
 </section>
 
 <section class="px-4 py-5 text-center about gradient-color">
