@@ -1481,7 +1481,7 @@ label {
 
 .brocher img {
     display: block;
-    height: 318px !important;
+    height: 300px !important;
     margin-top: 25px !important;
 }
 
@@ -1639,6 +1639,27 @@ h4.wow.fadeInUp.secure:after {
     margin-left: 0px;
     max-width: 224px;
     margin-bottom: 15px;
+}
+.download-btn {
+    background-color: #05111f00;
+    color: #37bff0;
+    display: inline-flex;
+    align-items: center;
+    padding: 0px;
+    padding-right: 15px;
+    font-weight: 500;
+    border: 1px solid #38c0f0;
+    border-radius: 4px;
+    box-shadow: 0px 0px 16px #37bff017;
+}
+.download-btn:hover {
+    box-shadow: 0px 0px 11px #38c0f08a;
+}
+.download-btn i {
+    padding: 12px 12px;
+    display: block;
+    border-right: 1px solid #38c0f0;
+    margin-right: 15px;
 }
 @media (max-width: 992px)
 {

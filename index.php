@@ -740,20 +740,17 @@ video {
 
                     </div>
 
-                        <div class="floor_plan_box brocher">
-                          <div class="floorPlan">
-                              <div class="floorPlanJs text-center">
-                                  <a data-fancybox="gallery" href="images/in-im.png" data-event-category="Gallery" data-event-action="Click" data-event-name="Floor Plan 1"><img src="images/in-im.png" alt="" class=""></a>
-                                  <!-- <h4>4 BHK+S ROOM</h4>
-                                  <p>Typical Corner Unit Plan of <br>Tower A,B,D,F,G,H,L</p> -->
-                              </div>
-                              <div class="floorPlanJs text-center">
-                                  <a data-fancybox="gallery" href="images/in-im.png" data-event-category="Gallery" data-event-action="Click" data-event-name="Floor Plan 2"><img src="images/in-im.png" alt="" class=""></a>
-                                  <!-- <h4>4 BHK+S ROOM</h4>
-                                  <p>Typical Corner Unit Plan of <br>Tower A,B,D,F,G,H,L</p> -->
-                              </div>
+                        <div class="floor_plan_box brocher text-center">
+                        <div class="mb-4">
+                          <a data-fancybox="gallery" href="images/in-im.png" data-event-category="Gallery" data-event-action="Click" data-event-name="Floor Plan 1">
+                            <img src="images/in-im.png" alt="" class="">
+                          </a>
+                        </div>
 
-                          </div>
+                          <button class="  download-btn">
+                            <i class="fa fa-download" aria-hidden="true"></i> 
+                            Download Brochure
+                          </button>
 
                           <!--<a href="#" class="ultimaBtn1 hvr-sweep-to-right">DOWNLOAD</a>-->
                       </div><!-- floor_plan_box -->
