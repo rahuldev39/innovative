@@ -60,7 +60,7 @@
     padding-top: 0px;
     background-repeat: no-repeat;">
       
-      
+   
       <!-- New img code-->
 
     <div id="mgmt-bio1" class="gray" style="background-image: url(images/bg2.png);
@@ -69,6 +69,11 @@
     background-repeat: no-repeat;">
       <div class="container-fulid">
           <div class="jumbotron jumbo-mrgn" style="background:inherit;">
+
+          <div class="Lead mb-5">
+                  <h2  class="leadership">OUR LEADERSHIP</h2>
+                </div>
+
         <div class="row">
             <div class="col-md-5 pr-0 pad-r" style="">
 
@@ -241,9 +246,7 @@
         <div class="row">
 
             <div class="col-md-12 our-leader">
-                <div class="Lead">
-                  <h2  class="leadership">OUR LEADERSHIP</h2>
-                </div>
+                
                 <div class="row Team_top">
                     <div id="1" data-bio="1" class="col-md-3 wow fadeIn  animated" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
                         <div class="profile-card">
@@ -251,7 +254,7 @@
                                 <img src="images/ashish1-short.png" alt="Team">
                             </div></a>
                             <div class="profile-content">
-                                <h2 class="title">Ashish Mittal
+                                <h2 class="title"><strong>Ashish</strong>  Mittal
                                     <span>Co-founder & Director</span>
                                     <!--<span>Innovatiview</span>-->
                                     <!--<span>info@Innovatiview.com</span>-->
@@ -272,7 +275,7 @@
                                 <img src="images/vishal1-short.png" alt="Team">
                             </div>
                             <div class="profile-content">
-                                <h2 class="title">Vishal Mittal
+                                <h2 class="title"><strong>Vishal</strong>  Mittal
                                     <!--<span>Innovative</span>-->
                                     <!--<span>+91 9560911131</span>-->
                                     <!--<span>info@Innovatiview.com</span>-->
@@ -295,7 +298,7 @@
                                 <img src="images/ankit1-short.png" alt="Team">
                             </div>
                             <div class="profile-content">
-                                <h2 class="title">Ankit Agarwal
+                                <h2 class="title"><strong>Ankit</strong>  Agarwal
                                     <!--<span>Innovative</span>-->
                                     <!--<span>+91 9560911131</span>-->
                                     <!--<span>info@Innovatiview.com</span>-->
@@ -317,7 +320,7 @@
                                 <img src="images/1-01.png" alt="Team">
                             </div>
                             <div class="profile-content">
-                                <h2 class="title">Poonam Singh
+                                <h2 class="title"><strong>Poonam</strong>  Singh
                                     <!--<span>Innovative</span>-->
                                     <!--<span>+91 9560911131</span>-->
                                     <!--<span>info@Innovatiview.com</span>-->
@@ -339,7 +342,7 @@
                                 <img src="images/1-01.png" alt="Team">
                             </div>
                             <div class="profile-content">
-                                <h2 class="title">Poonam Singh
+                                <h2 class="title"><strong>Poonam</strong>  Singh
                                     <!--<span>Innovative</span>-->
                                     <!--<span>+91 9560911131</span>-->
                                     <!--<span>info@Innovatiview.com</span>-->
@@ -360,7 +363,7 @@
                                 <img src="images/1-01.png" alt="Team">
                             </div>
                             <div class="profile-content">
-                                <h2 class="title">Poonam Singh
+                                <h2 class="title"><strong>Poonam</strong>  Singh
                                     <!--<span>Innovative</span>-->
                                     <!--<span>+91 9560911131</span>-->
                                     <!--<span>info@Innovatiview.com</span>-->
@@ -381,7 +384,7 @@
                                 <img src="images/1-01.png" alt="Team">
                             </div>
                             <div class="profile-content">
-                                <h2 class="title">Poonam Singh
+                                <h2 class="title"><strong>Poonam</strong>  Singh
                                     <!--<span>Innovative</span>-->
                                     <!--<span>+91 9560911131</span>-->
                                     <!--<span>info@Innovatiview.com</span>-->
@@ -402,7 +405,7 @@
                                 <img src="images/1-01.png" alt="Team">
                             </div>
                             <div class="profile-content">
-                                <h2 class="title">Poonam Singh
+                                <h2 class="title"><strong>Poonam</strong>  Singh
                                     <!--<span>Innovative</span>-->
                                     <!--<span>+91 9560911131</span>-->
                                     <!--<span>info@Innovatiview.com</span>-->
