@@ -7,12 +7,14 @@
     <meta name="format-detection" content="telephone=no">
     <link rel="stylesheet" type="text/css" href="newcss/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="newcss/style.css">
-   
+
     <link rel="stylesheet" type="text/css" href="newcss/responsive.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
     <link rel="stylesheet" type="text/css" href="newcss/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="newcss/slick-theme.css">
     <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" type="text/css" href="css/slick.min.css">
     <link rel="stylesheet" type="text/css" href="css/btn.css">
     <link rel="stylesheet" type="text/css" href="css/navigation.css">
@@ -21,9 +23,9 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
     <!--<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.csowl.theme.default.csss/3.7.0/animate.min.css">-->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
-   
+
     <link rel="shortcut icon" href="images/fav.jpg" type="image/x-icon">
-   
+
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -58,7 +60,7 @@ p.genral {
         color: #13284c;
     /* font-weight: 600; */
     font-size: 17px;
-    
+
 
 }
 
@@ -90,7 +92,7 @@ p.genral {
         #sitepop .modal-dialog{
           width: 96% !important;
         }
-      } 
+      }
 
 .myslider .item {
   width: 100%;
@@ -270,10 +272,10 @@ p.genral {
   background: url(video/Exm_1_Low res.mp4) no-repeat center center/cover;
 }
 video {
-    width: 100%;
-    height: 100vh;
-    z-index: 1;
-    object-fit: cover;
+  width: 100%;
+      height: 109vh;
+      z-index: 1;
+      object-fit: contain;
 }
 .overlay {
   width: 100%;
@@ -286,9 +288,9 @@ video {
   z-index: 2;
 }
     </style>
-    
+
     <style>
-    
+
     @media(max-width:768px){
 
 .banner_form {
@@ -317,7 +319,7 @@ video {
 .aboutus .one_banner h3{
   margin-bottom: 23px;
 }
-    
+
   .aboutus .one_banner h1{   font-size: 36px !important;}
 
 .aboutus .one_banner ul  li:last-child {padding-right:0;}
@@ -328,17 +330,17 @@ video {
     padding: 10px 45px 0 0;
     padding-bottom: 0;
     }
-    
+
 .aboutus .one_banner li span {
-    
+
     font-size:55px !important;
-   
+
 }
 
 .aboutus .one_banner span{font-size:16px;}
 
 
-    
+
 
 }
 
@@ -353,7 +355,7 @@ video {
 }
 
     .aboutus .one_banner{position: absolute;top: 150px;margin-bottom:70px;text-align:left;}
-    
+
   .aboutus .one_banner h1{   font-size: 29px !important;}
 
 .aboutus .one_banner ul  li:last-child {padding-right:0;}
@@ -364,17 +366,17 @@ video {
     padding: 10px 28px 0 0;
     padding-bottom: 0;
     }
-    
+
 .aboutus .one_banner li span {
-    
+
     font-size:55px !important;
-   
+
 }
 
 .aboutus .one_banner span{font-size:13px;}
 
 
-    
+
 
 }
 
@@ -383,7 +385,7 @@ video {
     font-size: 50px;
     margin: 0;
     line-height: 0;
-  
+
 }
 
 .aboutus .one_banner ul {margin-bottom:0;}
@@ -406,95 +408,75 @@ video {
   /*font-size: 4.5rem;*/
 }
 .video-overlay {
-    left: 0px;
-    top: 0px;
-    z-index: 100;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  left: 0px;
+  top: 0px;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.video-control span::before{
-    content: "\f04c";
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: 32px;
-}
-.video-control.pause span::before{
-  content: "\f04b";
-  padding-left: 7px;
-}
-.video-control, .video-control:focus {
-    padding: 0px;
-    width: 70px;
-    height: 70px;
-    border: 3px solid #37bff0 !important;
-    color: #37bff0 !important;
-    border-radius: 50%;
-    padding-top: 3px;
-    opacity: .3;
-    position: relative;
-    text-decoration: none !important;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.video-control:hover{
-  color: white !important;
-  opacity: 1;
-  background-color: #37bff0;
-  text-decoration: none
-}
-.video-control:after{
-  width:100%;
-  height:100%;
-  position:absolute;
-  content:'';
-  left:0;
-  top:0;
- border-radius:50%
-}
-.video-control:hover:after{
-  animation: pulse 1s infinite;
-}
-@keyframes pulse {
-  0% {
-		transform: scale(0.95);
-		box-shadow: 0 0 0 0 rgba(13, 165, 222, 0.8);
-	}
 
-	70% {
-		transform: scale(1);
-		box-shadow: 0 0 0 20px rgba(13, 165, 222, 0) ;
-	}
-
-	100% {
-		transform: scale(0.95);
-		box-shadow: 0 0 0 0 rgba(13, 165, 222, 0);
-	}
-}
 </style>
 
 </head>
 <body>
+<!-- <div id="sitepop" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+                <img src="images/Ultima-popup-new.jpg" style="width:100%;display: block;">
+            </div>
+        </div>
+    </div>
+</div> -->
+
+
+
+
 <?php include 'navigation.php';?>
 
-<div id="fullpage">
 
-    <div class="section aboutus vertical-scrolling" id="section0">
-          <div class="bg-video-wrap position-relative">
-            <video id="myVideos"  loop muted data-autoplay>
-              <source src="video/banner-video.mp4" type="video/mp4">
-            </video>
-            <div class="video-overlay position-absolute w-100 h-100">
-              <a href="#" class="video-control ">
-                <span></span>
-              </a>
-          </div>  
-          </div> 
-          
+
+
+<div id="fullpage">
+  <div class="section aboutus vertical-scrolling" id="section0">
+        <div class="bg-video-wrap position-relative">
+          <video id="myVideos"  loop muted data-autoplay>
+            <source src="video/banner-video.mp4" type="video/mp4">
+          </video>
+          <div class="video-overlay position-absolute w-100 h-100">
+            <a href="#" class="video-control ">
+              <span></span>
+            </a>
+        </div>
+        </div>
+        <div class="container">
+                    <div class="one_banner">
+
+                        <h3 class="homebdr" style="color:#fff; font-size:60px; font-weight:900;">Redefining Examination  </br>  Security Solutions  </br> In India</h3>
+
+
+                        <button class="video-btn video-control modal-link" data-toggle="modal" data-target="#myModal">
+                <sky-svg class="sky-svg-loaded">
+<svg class="svg-play" enable-background="new 0 0 270 270" viewBox="0 0 270 270" xmlns="http://www.w3.org/2000/svg">
+    <path d="M113.448 177.89l58.58-42.53-58.58-42.866v63.824" fill="#030a16" id="play" stroke="#030a16" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="8"></path>
+    </svg></sky-svg><span>play video</span></button>
+                    </div><!-- one_banner -->
+
+
+
+                    <a href="#About" data-event-category="Section" data-event-action="Click" data-event-name="Down Arrow">
+                        <img src="images/downarrow.svg" class="downarrow" />
+                    </a>
+            </div>
     </div><!-- section0 -->
 
     <div class="section vertical-scrolling" id="section1">
-    <div class="myslider jk">
+      <section>
+      <div class="secondary-slider owl-carousel owl-theme jk">
           <div class="secondary-slider-item bg-darkblue">
             <div class="row h-100">
           <div class="col-lg-6 d-lg-flex align-items-center justify-content-center">
@@ -505,15 +487,15 @@ video {
               <h2>20000+ Guards and Crowd Managers</h2>
               <p>Are trained to cater 15 lakhs+  candidates per shift as per the COVID guidelines.</p>
             </div>
-            
+
           </div>
           <div class="col-lg-6  position-relative secondary-slider-right">
             <div class="separator">
             <img src="./images/slider-separator.png" alt="">
             </div>
-          
+
               <img src="./images/slider-right1.jpg" class="slider-img-right" alt="">
-          
+
           </div>
           </div>
           </div>
@@ -529,7 +511,7 @@ video {
               <h2>8,000+ Contactless  Biometric Tablets</h2>
               <p>Are ready to cater 10 lakhs+  candidates per shift with Iris/Face recognition technology.</p>
             </div>
-            
+
           </div>
           <div class="col-lg-6  position-relative secondary-slider-right">
             <div class="separator">
@@ -537,7 +519,7 @@ video {
             </div>
 
               <img src="./images/slider-right2.jpg" class="slider-img-right" alt="">
-            
+
           </div>
           </div>
           </div>
@@ -552,15 +534,15 @@ video {
               <h2>An Inventory of 50,000+  Live CCTVs</h2>
               <p>Is ready to cater 15 lakhs+  candidates per shift with remote exam & crowd monitoring.</p>
             </div>
-            
+
           </div>
           <div class="col-lg-6  position-relative secondary-slider-right">
             <div class="separator">
             <img src="./images/slider-separator.png" alt="">
             </div>
-          
+
               <img src="./images/slider-right3.jpg" class="slider-img-right" alt="">
-          
+
           </div>
           </div>
           </div>
@@ -576,7 +558,7 @@ video {
               <h2>20000+ Trained  Manpower</h2>
               <p>Are ready to cater 2500+ exam centres per shift with deep sanitization solution.</p>
             </div>
-            
+
           </div>
           <div class="col-lg-6  position-relative secondary-slider-right">
             <div class="separator">
@@ -599,20 +581,22 @@ video {
               <h2>An Inventory of 8000+ Verification Devices</h2>
               <p>Is ready to authenticate 16 lakhs+ candidates per shift with digital  attendance system</p>
             </div>
-            
+
           </div>
           <div class="col-lg-6 position-relative secondary-slider-right">
             <div class="separator">
             <img src="./images/slider-separator.png" alt="">
             </div>
-          
+
               <img src="./images/slider-right5.jpg" class="slider-img-right" alt="">
-          
+
           </div>
           </div>
           </div>
 
           </div>
+
+      </section>
     </div><!-- section1 -->
 
 
@@ -622,22 +606,22 @@ video {
                 <div class="row no-gutters gradient-bg">
                   <div class="col-lg-7 col-md-12 aa">
                     <div class="amenities_left Connectivity_list">
-                     
+
                     <!--<span class="wow fadeInUp animated">ABOUT US</span>-->
-                      <h4 class="wow fadeInUp animated homebdr1">W3 have come a long way</h4>
+                      <h4 class="wow fadeInUp animated homebdr1">WE HAVE COME A LONG WAY</h4>
                       <p>Innovatiview delivers an innovative range of examination security solutions driven by technology to curb malpractices at every step of an examination. Established in 2010, we strive to support equitable and transparent conduct of exams to maintain the credibility of this sector. The organization achieves this through an ideal mix of advanced technology, exceptional inventory base, experienced resources and elaborate PAN India network.
 
 </p>
                  <a href="#" class="ultimaBtn hvr-sweep-to-right">KNOW MORE</a>
-                      
-                      
+
+
                     </div><!-- amenities_left -->
                   </div>
                   <div class="col-lg-5 col-md-12">
                     <div class="blueBg">
                         <div class="pt-3">
                 <div class="row">
-           
+
            <div class="col-md-6 col-6">
                <div class="back">
                     <div class="button_base mx-auto b03_skewed_slide_in">
@@ -648,7 +632,7 @@ video {
                     <div class="security-btn wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;"><p style="color:red; text-align:center; ">Security Solution</p></div>
                 </div><!-- End back-->
            </div>
-           
+
            <div class="col-md-6 col-6">
                <div class="back">
                     <div class="button_base mx-auto b03_skewed_slide_in">
@@ -659,8 +643,8 @@ video {
                     <div class="security-btn wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;"><p style="color:red; text-align:center; ">Client Served</p></div>
                 </div><!-- End back-->
            </div>
-           
-           
+
+
            <div class="col-md-6 col-6">
                <div class="back mt-4">
                     <div class="button_base mx-auto b03_skewed_slide_in">
@@ -671,8 +655,8 @@ video {
                     <div class="security-btn wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;"><p style="color:red; text-align:center; ">Client Served</p></div>
                 </div><!-- End back-->
            </div>
-           
-           
+
+
            <div class="col-md-6 col-6">
                <div class="back mt-4">
                     <div class="button_base mx-auto b03_skewed_slide_in">
@@ -683,8 +667,8 @@ video {
                     <div class="security-btn wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;"><p style="color:red; text-align:center; ">Client Served</p></div>
                 </div><!-- End back-->
            </div>
-           
-           
+
+
            <div class="col-md-6 col-6">
                <div class="back mt-4">
                     <div class="button_base mx-auto b03_skewed_slide_in">
@@ -695,7 +679,7 @@ video {
                     <div class="security-btn wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;"><p style="color:red; text-align:center; ">Candidates Catered</p></div>
                 </div><!-- End back-->
            </div>
-           
+
            <div class="col-md-6 col-6">
                <div class="back mt-4">
                     <div class="button_base mx-auto b03_skewed_slide_in">
@@ -706,7 +690,7 @@ video {
                     <div class="security-btn wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;"><p style="color:red; text-align:center; ">Turnover</p></div>
                 </div><!-- End back-->
            </div>
-           
+
            <div class="col-md-6 col-6">
                <div class="back mt-4">
                     <div class="button_base mx-auto b03_skewed_slide_in">
@@ -718,8 +702,8 @@ video {
 
                 </div><!-- End back-->
            </div>
-           
-           
+
+
            <div class="col-md-6 col-6">
                <div class="back mt-4">
                     <div class="button_base mx-auto b03_skewed_slide_in">
@@ -732,30 +716,30 @@ video {
            </div>
            </div><!-- End row-->
             </div>
-            
-            
+
+
                     </div>
                   </div>
                 </div>
           </div>
         </div>
-    </div><!-- section3 -->    
+    </div><!-- section3 -->
 
-    
+
 
     <div class="section vertical-scrolling Specification amenities" id="section4">
         <div class="photoImg">
-        <div class="row no-gutters">
-                   
+              <div class="row no-gutters">
+
                    <div class="col-lg-5 col-md-12" style="padding-left:0px;">
                    <div class="blueBg relative">
                         <!--<div class="overlay"></div>-->
                         <div class="floore-right">
                       <!--<span class="wow fadeInUp">Redefing Examination Security</span>-->
                       <h4 class="wow fadeInUp secure">Want to secure examination? Download our brochure. </h4>
-                      
+
                     </div>
-                        
+
                         <div class="floor_plan_box brocher">
                           <div class="floorPlan">
                               <div class="floorPlanJs text-center">
@@ -768,27 +752,27 @@ video {
                                   <!-- <h4>4 BHK+S ROOM</h4>
                                   <p>Typical Corner Unit Plan of <br>Tower A,B,D,F,G,H,L</p> -->
                               </div>
-                              
+
                           </div>
-                          
+
                           <!--<a href="#" class="ultimaBtn1 hvr-sweep-to-right">DOWNLOAD</a>-->
                       </div><!-- floor_plan_box -->
-                        
-                        
-                        
-                        
-                        
+
+
+
+
+
                         <!--<div class="fullHght" style="background:url('images/Specification.jpg') no-repeat"></div>-->
                         <!--<img src="images/Specification.jpg" class="w-100">-->
                     </div>
                   </div>
-                   
+
                   <div class="col-lg-7 col-md-12">
                     <div class="amenities_left">
                       <!--<span>Specification</span>-->
                       <h4 class="client">Our Clients</h4>
                       <p class="diff">Our greatest reward is our client’s trust</p>
-                      <p class="client-p"> 
+                      <p class="client-p">
                         Over the years, Innovatiview has grown tremendously and takes pride in having served various reputed names in the industry.
                         </p>
                           <!--<ul class="Specificationjs">-->
@@ -799,18 +783,18 @@ video {
                           <!--  <li><img src="images/logos-24.png"></li>-->
                           <!--  <li><img src="images/logos-16.png"></li>-->
                           <!--  <li><img src="images/logos-18.png"></li>-->
-                            
-                           
+
+
                           <!--</ul>-->
                              <img src="images/NAME OF CLIENTS-01.png">
                         <!--<a href="#Home" id="scroll2"><button class="enbtn">Enquire Now</button></a>-->
-                        
+
                     </div><!-- amenities_left -->
                   </div>
-                  
+
                 </div>
         </div>
-    </div><!-- section2 -->  
+    </div><!-- section2 -->
 
      <div class="section vertical-scrolling footer" id="section5">
         <div class="">
@@ -823,7 +807,7 @@ video {
 
 
             <div class="row top">
-             
+
 
             <div class="col-lg-3 col-md-4 d-none d-lg-block">
               <div class="footer_menu third">
@@ -846,8 +830,8 @@ video {
                 <p><span style="color:#1d9dd8; font-weight:bold;">Feb 28,</span> Biometric Authentication : Becoming A Must In Exam Security</p>
                 <p style="    position: relative;width: 53px;right: 70px;height: 2px;background: #1d9dd8;"></p>
                 <p>Career</p>
-              
-                 
+
+
 
               </div><!-- footer_menu -->
             </div>
@@ -859,8 +843,8 @@ video {
                   <p><span><a href="tel: +91 956-091-1131"><i class="fa fa-phone-square" aria-hidden="true"></i> General Enquiry : +91 9560911131</p></span>
                   <p><span><a href="tel: +91 971-751-1121"><i class="fa fa-phone-square" aria-hidden="true"></i> Business Enquiry : +91-9717511121</p></span>
                   <p><i class="fa fa-envelope" aria-hidden="true"></i><a href="#"> info@Innovatiview.com</a></p>
-                  
-                  
+
+
                   <ul class="social-icon mb-0" style="margin-left: -18px;">
               <li><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
               <li><a target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
@@ -868,23 +852,23 @@ video {
               <li><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
             </ul>
                 </div>
-                  
 
-           
-                   
+
+
+
               </div><!-- footer_menu -->
             </div>
-            
-            
+
+
             <div class="col-lg-3 col-md-3">
              <h4>Location</h4>
              <!--<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14039.944968572656!2d76.95405759999997!3d28.389483499999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xffc3efc4e2da082e!2sDLF%20The%20Ultima!5e0!3m2!1sen!2sin!4v1571200832687!5m2!1sen!2sin" width="100%" height="150" frameborder="0" style="border:0;" allowfullscreen=""></iframe></p>-->
             <p><div style="width: 100%"><iframe width="100%" height="300" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=4th%20Floor%2C%20Tower%20B%2C%20A-1%20Windsor%20IT%20Park%2C%20Sector%20125%2C%20Noida%2C%20Uttar%20Pradesh%20201313%2C%20India+(Innovatiview)&amp;ie=UTF8&amp;t=&amp;z=20&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/coordinates.html">find my location</a></iframe></div><br /></p>
             </div>
-            
-            
-         
-            
+
+
+
+
             <!--<div class="col-lg-3 col-md-3">-->
             <!--  <div class="footer_menu fourth">-->
             <!--      <h4>Social</h4>-->
@@ -941,8 +925,8 @@ video {
 <div class="col-sm-6  col-xs-12 form-group">
      <input type="hidden" id="formname" class="form-control" name="formname" value="side_form">
 </div>
-        
-  
+
+
 <button type=submit value="Send Message" name="submitbtn" class="ultimaBtn_btn" data-event-category="Section" data-event-action="Click" data-event-name="Send Message">Submit</button>
 </form>
 
@@ -1005,8 +989,8 @@ video {
           <input type="tel" id="orangeForm-pass" class="form-control validate">
           <label data-error="wrong" data-success="right" for="orangeForm-pass">Your phone number</label>
         </div>
-        
-        
+
+
         <div class="md-form mb-2">
           <i class="fa fa-question-circle fa-3x" aria-hidden="true" style="color:#1d9dd8;"></i>
           <textarea class="form-control" rows="5" id="comment"></textarea>
@@ -1057,8 +1041,8 @@ video {
           <input type="tel" id="orangeForm-pass" class="form-control validate">
           <label data-error="wrong" data-success="right" for="orangeForm-pass">Your phone number</label>
         </div>
-        
-        
+
+
         <div class="md-form mb-2">
           <i class="fa fa-question-circle fa-3x" aria-hidden="true" style="color:#1d9dd8;"></i>
           <textarea class="form-control" rows="5" id="comment"></textarea>
@@ -1107,8 +1091,8 @@ video {
           <input type="tel" id="orangeForm-pass" class="form-control validate">
           <label data-error="wrong" data-success="right" for="orangeForm-pass">Your phone number</label>
         </div>
-        
-        
+
+
         <div class="md-form mb-2">
           <i class="fa fa-question-circle fa-3x" aria-hidden="true" style="color:#1d9dd8;"></i>
           <textarea class="form-control" rows="5" id="comment"></textarea>
@@ -1157,8 +1141,8 @@ video {
           <input type="tel" id="orangeForm-pass" class="form-control validate">
           <label data-error="wrong" data-success="right" for="orangeForm-pass">Your phone number</label>
         </div>
-        
-        
+
+
         <div class="md-form mb-2">
           <i class="fa fa-question-circle fa-3x" aria-hidden="true" style="color:#1d9dd8;"></i>
           <textarea class="form-control" rows="5" id="comment"></textarea>
@@ -1207,8 +1191,8 @@ video {
           <input type="tel" id="orangeForm-pass" class="form-control validate">
           <label data-error="wrong" data-success="right" for="orangeForm-pass">Your phone number</label>
         </div>
-        
-        
+
+
         <div class="md-form mb-2">
           <i class="fa fa-question-circle fa-3x" aria-hidden="true" style="color:#1d9dd8;"></i>
           <textarea class="form-control" rows="5" id="comment"></textarea>
@@ -1258,8 +1242,8 @@ video {
           <input type="tel" id="orangeForm-pass" class="form-control validate">
           <label data-error="wrong" data-success="right" for="orangeForm-pass">Your phone number</label>
         </div>
-        
-        
+
+
         <div class="md-form mb-2">
           <i class="fa fa-question-circle fa-3x" aria-hidden="true" style="color:#1d9dd8;"></i>
           <textarea class="form-control" rows="5" id="comment"></textarea>
@@ -1384,7 +1368,7 @@ var autoplay='?autoplay=1';
 //         document.getElementById('hours').innerText = Math.floor((distance % (day)) / (hour)),
 //         document.getElementById('minutes').innerText = Math.floor((distance % (hour)) / (minute)),
 //         document.getElementById('seconds').innerText = Math.floor((distance % (minute)) / second);
-      
+
 
 //     }, second)
 </script>
@@ -1398,27 +1382,6 @@ var autoplay='?autoplay=1';
 
 <script>
     
-    
-    
-    $('.owl-carousel').owlCarousel({
-    loop:true,
-    dots:false,
-    nav:true,
-    mouseDrag:false,
-    autoplay:true,
-    animateOut: 'slideOutLeft',
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:1
-        },
-        1000:{
-            items:1
-        }
-    }
-});
 
 
 
@@ -1432,16 +1395,15 @@ arrows: false,
 dots: true,
 vertical: false,
 verticalSwiping: false
-    
+
 });
 
 
 var videos = document.getElementById("myVideos");
 if(videos){
-    videos.load(); 
+    videos.load();
 }
 video = jQuery('#myVideos').get()[0];
-	
 </script>
 
 
@@ -1456,8 +1418,26 @@ video = jQuery('#myVideos').get()[0];
             video.pause();
         }
     });
-  
-  
+</script>
+
+<script>
+	$('.secondary-slider').owlCarousel({
+    loop:true,
+    nav:false,
+	  autoplay:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
+	
 </script>
 </body>
 </html>

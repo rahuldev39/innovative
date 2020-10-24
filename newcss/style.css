@@ -1531,10 +1531,10 @@ h4.wow.fadeInUp.secure:after {
     left: 0;
     top: 0;
 }
-.separator img
-{
+.separator img {
     object-fit: contain;
     object-position: left;
+    height: 100%;
 }
 .bg-darkblue {
     background-color: #12284c;
@@ -1609,6 +1609,36 @@ h4.wow.fadeInUp.secure:after {
 .banner-subtitle-p {
     font-weight: 600;
     font-size: 20px;
+}
+
+.secondary-slider.owl-theme .owl-dots .owl-dot {
+    display: block;
+}
+.secondary-slider.owl-theme .owl-nav.disabled+.owl-dots {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.secondary-slider.owl-theme .owl-dots .owl-dot span {
+    height: 15px;
+    width: 15px;
+    background: #12284c;
+    box-shadow: 0px 0px 0px 3px #6abd48 inset;
+}
+.secondary-slider.owl-theme .owl-dots .owl-dot.active span, 
+.secondary-slider.owl-theme .owl-dots .owl-dot:hover span {
+    background: #6abd48;
+}
+.secondary-slider.owl-carousel .owl-item img{
+}
+.secondary-slider-item {
+    height: 100vh !important;
+}
+.slider-logo img {
+    width: auto !important;
+    margin-left: 0px;
+    max-width: 224px;
+    margin-bottom: 15px;
 }
 @media (max-width: 992px)
 {
