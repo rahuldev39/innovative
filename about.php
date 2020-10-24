@@ -70,9 +70,9 @@
       <div class="container-fulid">
           <div class="jumbotron jumbo-mrgn" style="background:inherit;">
 
-          <div class="Lead mb-5">
+          <div class="Lead mb-5 text-center">
                   <h2  class="leadership">OUR LEADERSHIP</h2>
-                </div>
+          </div>
 
         <div class="row">
             <div class="col-md-5 pr-0 pad-r" style="">

@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-   <title>Innovatiview</title> 
+   <title>Innovatiview</title>
    <link rel="shortcut icon" href="images/fav.jpg" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -19,12 +19,13 @@
     <link rel="stylesheet" type="text/css" href="css/btn.css">
     <link rel="stylesheet" type="text/css" href="css/contactus.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
-    
+
 </head>
 
 
 <style>
  .contactUsSection {
+
     overflow: hidden;
     position: relative;
     width: 100%;
@@ -403,7 +404,7 @@ from{opacity:0;bottom:-300%}
     -webkit-animation-duration: 2s;
     animation-duration: 2s;
 }
-  .ss{ 
+  .ss{
 	background: linear-gradient(-45deg, #d6d6d6, #fbfbfb, #ffffff, #d6d6d6);
 	background-size: cover;
 	animation: gradient 15s ease infinite;
@@ -421,13 +422,14 @@ from{opacity:0;bottom:-300%}
 }
 .get{position:relative;
     margin-bottom:20px;
-    padding-bottom:20px
+     padding-bottom:20px;
 }
+
 
 h1.get:after {
     position: absolute;
     width: 290px;
-    left: 50%;
+   left: 50%;
     /* right: 64px; */
     height: 8px;
     /* background: red; */
@@ -442,7 +444,7 @@ h1.get:after {
     background: linear-gradient(135deg, rgba(19,40,76,1) 50%, rgba(56,192,240,1) 50%);
     transform: translateX(-50%);
 }
-   
+
 </style>
 <body class="bg">
     <?php $page ='contactus'; ?>
@@ -450,20 +452,17 @@ h1.get:after {
 
 
 <section class="banner_inner">
-    <div class="container">
-      <div class="col-md-12 text-center">
-          <h1 class="banner-title-h1 wow fadeInUp">Contact Us</h1>
-          <p class="banner-subtitle-p mt-0">An array of advanced solutions to make exams secure <br> today and tomorrow.</p>
-      </div>
-    </div><!-- End container-->
+  <div class="col-md-12 text-center">
+         <h1 class="banner-title-h1 wow fadeInUp">Get In Touch With Us</h1>
+         <p class="banner-subtitle-p mt-0">To find out how we can help you reinforce your examination security using technology.</p>
+     </div>
+   </div><!-- End container-->
 </section>
 
 <section class="px-4 py-5 text-center about gradient-color">
       <div class="container">
-            <p class="solution-p wow fadeInUp m-0" style="margin-top:10px;">Delivering an innovative COVID ready range of
-  examination security solutions </br> to curb malpractices
-  while ensuring safety against COVID </p>
-        
+            <p class="solution-p wow fadeInUp m-0" style="margin-top:10px;">Send us your message by filling out the form below. One of our advisors will be happy to get in touch with you. Thank you! </p>
+
       </div>
     </section>
 
@@ -471,14 +470,13 @@ h1.get:after {
 
 <section style="background-color: #ffffff;
     background-image: url(https://www.transparenttextures.com/patterns/ag-square.png);">
-    
+
     <div class="container-fulid">
-        <div class="jumbotron mb-0" style="background:inherit;">
+        <div class="jumbotron pt-5 mb-0" style="background:inherit;">
             <div class="row">
-                <div class="col-md-12">
-                    <h1 class="get" style="color:#1d9dd8;text-align: center;">Get In Touch With Us</h1>
-                    <p style="color:#212121; text-align: center;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet </br> dolore magna aliquam  erat volutpat. Ut wisi enim ad minim Lorem ipsum dolor sit amet, consectetuer adipiscing elit, </p>
-                </div>
+            <div class="Lead mb-0 text-center">
+                  <h2  class="leadership mb-0">Contact Us</h2>
+          </div>
             </div>
         </div>
     </div>
@@ -488,13 +486,13 @@ h1.get:after {
 
 
 <section class="" style="background-color: #10264a; ">
-    
+
     <div class="container-fulid">
         <div class="jumbotron mb-0" style="background:inherit;">
             <div class="row">
-                 
 
-                            <div class="col-md-6"> 
+
+                            <div class="col-md-6">
                             <div class="row">
                             <div class="col-md-12 contact_form ">
                                 <form method="post" action="sendmail.php">
@@ -555,7 +553,7 @@ h1.get:after {
                                     <textarea rows="3" class="form-control" name="remarks" placeholder="Remarks" required></textarea>
                                 </div>
                             </div>
-                          
+
                             <div class="col-md-12 text-left wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
                                 <input type="submit" class="tata-btn hvr-shutter-out-horizontal" value="submit" name="submit">
                             </div>
@@ -567,12 +565,12 @@ h1.get:after {
                             <div class="col-md-6">
                                 <div class="contact-us-icons aem-GridColumn aem-GridColumn--default--12">
 <section class="contactUsSection noSlider grayNav customScroll clickableDiv">
-    
+
     <div class="mapWrapper">
-        <img src="images/India Map.svg" alt="Contact Us">
-        
-            
-                <div class="marker-1">
+        <img src="images/MAP-09.png" alt="Contact Us">
+
+
+                <!-- <div class="marker-1">
                     <div class="iconsMap">
                         <a href="#">
                             <img src="images/Pin-02.svg" id="icon1" class="iconsMap1" alt="Contact us">
@@ -583,7 +581,7 @@ h1.get:after {
                             </div>
                     </div>
                 </div>
-            
+
                 <div class="marker-2">
                     <div class="iconsMap">
                         <a href="#">
@@ -595,7 +593,7 @@ h1.get:after {
                             </div>
                     </div>
                 </div>
-            
+
                 <div class="marker-3">
                     <div class="iconsMap">
                         <a href="#">
@@ -607,7 +605,7 @@ h1.get:after {
                             </div>
                     </div>
                 </div>
-            
+
                 <div class="marker-4">
                     <div class="iconsMap">
                         <a href="#">
@@ -619,7 +617,7 @@ h1.get:after {
                             </div>
                     </div>
                 </div>
-            
+
                 <div class="marker-5">
                     <div class="iconsMap">
                         <a href="#">
@@ -631,27 +629,27 @@ h1.get:after {
                             </div>
                     </div>
                 </div>
-            
-                <!--<div class="marker-6">-->
-                <!--    <div class="iconsMap">-->
-                <!--        <a href="#">-->
-                <!--            <img src="images/Pin-02.svg" id="icon6" class="iconsMap1" alt="Contact us">-->
-                <!--        </a>-->
-                <!--        <div class="showdata">-->
-                <!--            <h4>Chennai:</h4>-->
-                <!--            	<p>Plot No. 15/24 Gangai Amman Kovil 4th Street Vadapalni 600026 </p>-->
-                <!--            </div>-->
-                <!--    </div>-->
-                <!--</div>-->
-            
-        
+
+                <div class="marker-6">
+                   <div class="iconsMap">
+                       <a href="#">
+                           <img src="images/Pin-02.svg" id="icon6" class="iconsMap1" alt="Contact us">
+                       </a>
+                       <div class="showdata">
+                           <h4>Kolkata:</h4>
+                           	<p></p>
+                           </div>
+                   </div>
+                </div> -->
+
+
         <div class="imageOverContactUs"></div>
     </div>
 </section>
 
-    
+
 </div>
-                                
+
                                  </div><!-- India map col-6-->
             </div>
         </div>
@@ -671,31 +669,31 @@ h1.get:after {
        <div class="jumbotron" style="background:inherit; margin-bottom:0;">
            <div class="row">
                <div class="col-md-4">
-                  <div class="vision"> 
-                  <div class="d-flex"><img src="images/vision.png"></div>
+                  <div class="vision">
+                  <div class="d-flex"><img src="images/Visit-Our-Place.png"></div>
                     <h3 class="val wow fadeInUp  animated">Visit Our Place</h3>
                     <p class="wow fadeInUp  animated mission-p">4th Floor, Tower B, A-1 Windsor It Park, Sector 125, Noida, Uttar Pradesh 201313</p>
                   </div>
                </div>
                <div class="col-md-4">
                    <div class="vision">
-                       <div class="d-flex" ><img src="images/mission.png"></div>
+                       <div class="d-flex" ><img src="images/Office-Schedule.png"></div>
                     <h3 class="val wow fadeInUp  animated">Office Schedule</h3>
-                    
+
                     <p class="wow fadeInUp  animated mission-p ">Monday To Saturday: 09.00am To
 18.00pm Sunday: Closed</p>
                    </div>
                </div>
                <div class="col-md-4">
-                   <div class="vision"> 
-                   <div class="d-flex"><img src="images/values.png"></div>
+                   <div class="vision">
+                   <div class="d-flex"><img src="images/Quick-Contact.png"></div>
                     <h3 class="val wow fadeInUp  animated">Quick Contact</h3>
                     <p class="wow fadeInUp  animated mission-p">Ph: +91 9560911131 </br> Email: Info@innovatiview.com</p>
                    </div>
                </div>
            </div>
        </div>
-    
+
 </section>
 <!-- End New section-->
 
@@ -715,7 +713,7 @@ h1.get:after {
 <?php include 'footer.php';?>
 
 <script>
-    
+
    $(document).on('click', '#video-id', function (e) {
     var video = $('video').get(0);
     if (video.paused === false) {
@@ -731,7 +729,7 @@ h1.get:after {
     $('.counter').each(function() {
   var $this = $(this),
       countTo = $this.attr('data-count');
-  
+
   $({ countNum: $this.text()}).animate({
     countNum: countTo
   },
@@ -748,9 +746,9 @@ h1.get:after {
       //alert('finished');
     }
 
-  });  
-  
-  
+  });
+
+
 
 });
 </script>
@@ -767,13 +765,13 @@ h1.get:after {
       }
    });
 });
-    
+
 </script>
 
 
 
 <script type="text/javascript">
-  
+
 
   (function(){
   // setup your carousels as you normally would using JS
@@ -806,7 +804,7 @@ h1.get:after {
 
 
 <script type="text/javascript">
-  
+
   $slideshow = $('.slider').slick({
        slidesToShow: 5,
         slidesToScroll: 2,
@@ -857,6 +855,6 @@ h1.get:after {
 
 </script>
 
-  
+
 </body>
 </html>
