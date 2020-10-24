@@ -14,7 +14,7 @@
     <link rel="stylesheet" type="text/css" href="newcss/slick-theme.css">
     <link rel="stylesheet" type="text/css" href="css/animate.css">
     <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
+   <link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" type="text/css" href="css/slick.min.css">
     <link rel="stylesheet" type="text/css" href="css/btn.css">
     <link rel="stylesheet" type="text/css" href="css/navigation.css">
@@ -415,7 +415,64 @@ video {
   align-items: center;
   justify-content: center;
 }
+.video-control span::before{
+  content: "\f04c";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 32px;
+}
+.video-control.pause span::before{
+content: "\f04b";
+padding-left: 7px;
+}
+.video-control, .video-control:focus {
+  padding: 0px;
+  width: 70px;
+  height: 70px;
+  border: 3px solid #37bff0 !important;
+  color: #37bff0 !important;
+  border-radius: 50%;
+  padding-top: 3px;
+  opacity: .3;
+  position: relative;
+  text-decoration: none !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.video-control:hover{
+color: white !important;
+opacity: 1;
+background-color: #37bff0;
+text-decoration: none
+}
+.video-control:after{
+width:100%;
+height:100%;
+position:absolute;
+content:'';
+left:0;
+top:0;
+border-radius:50%
+}
+.video-control:hover:after{
+animation: pulse 1s infinite;
+}
+@keyframes pulse {
+0% {
+  transform: scale(0.95);
+  box-shadow: 0 0 0 0 rgba(13, 165, 222, 0.8);
+}
 
+70% {
+  transform: scale(1);
+  box-shadow: 0 0 0 20px rgba(13, 165, 222, 0) ;
+}
+
+100% {
+  transform: scale(0.95);
+  box-shadow: 0 0 0 0 rgba(13, 165, 222, 0);
+}
+}
 </style>
 
 </head>
@@ -447,19 +504,19 @@ video {
           <video id="myVideos"  loop muted data-autoplay>
             <source src="video/banner-video.mp4" type="video/mp4">
           </video>
-          <div class="video-overlay position-absolute w-100 h-100">
+          <!-- <div class="video-overlay position-absolute w-100 h-100">
             <a href="#" class="video-control ">
               <span></span>
             </a>
+        </div> -->
         </div>
-        </div>
-        <div class="container">
+        <!-- <div class="container">
                     <div class="one_banner">
 
                         <h3 class="homebdr" style="color:#fff; font-size:60px; font-weight:900;">Redefining Examination  </br>  Security Solutions  </br> In India</h3>
 
 
-                        <button class="video-btn video-control modal-link" data-toggle="modal" data-target="#myModal">
+                        <button class="video-btn modal-link" data-toggle="modal" data-target="#myModal">
                 <sky-svg class="sky-svg-loaded">
 <svg class="svg-play" enable-background="new 0 0 270 270" viewBox="0 0 270 270" xmlns="http://www.w3.org/2000/svg">
     <path d="M113.448 177.89l58.58-42.53-58.58-42.866v63.824" fill="#030a16" id="play" stroke="#030a16" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="8"></path>
@@ -467,16 +524,16 @@ video {
                     </div><!-- one_banner -->
 
 
-
+<!--
                     <a href="#About" data-event-category="Section" data-event-action="Click" data-event-name="Down Arrow">
                         <img src="images/downarrow.svg" class="downarrow" />
                     </a>
-            </div>
+            </div> -->
     </div><!-- section0 -->
 
     <div class="section vertical-scrolling" id="section1">
       <section>
-      <div class="secondary-slider owl-carousel owl-theme jk">
+        <div class="secondary-slider owl-carousel owl-theme jk">
           <div class="secondary-slider-item bg-darkblue">
             <div class="row h-100">
           <div class="col-lg-6 d-lg-flex align-items-center justify-content-center">
@@ -595,8 +652,7 @@ video {
           </div>
 
           </div>
-
-      </section>
+          </section>
     </div><!-- section1 -->
 
 
@@ -740,18 +796,30 @@ video {
 
                     </div>
 
-                        <div class="floor_plan_box brocher text-center">
-                        <div class="mb-4">
-                          <a data-fancybox="gallery" href="images/in-im.png" data-event-category="Gallery" data-event-action="Click" data-event-name="Floor Plan 1">
-                            <img src="images/in-im.png" alt="" class="">
-                          </a>
-                        </div>
+                        <!-- <div class="floor_plan_box brocher">
+                          <div class="floorPlan">
+                              <div class="floorPlanJs text-center">
+                                  <a data-fancybox="gallery" href="images/in-im.png" data-event-category="Gallery" data-event-action="Click" data-event-name="Floor Plan 1"><img src="images/in-im.png" alt="" class=""></a>
+                                  <!-- <h4>4 BHK+S ROOM</h4>
+                                  <p>Typical Corner Unit Plan of <br>Tower A,B,D,F,G,H,L</p> -->
+                              <!--</div>
+                              <div class="floorPlanJs text-center">
+                                  <a data-fancybox="gallery" href="images/in-im.png" data-event-category="Gallery" data-event-action="Click" data-event-name="Floor Plan 2"><img src="images/in-im.png" alt="" class=""></a>
+                                  <!-- <h4>4 BHK+S ROOM</h4>
+                                  <p>Typical Corner Unit Plan of <br>Tower A,B,D,F,G,H,L</p> -->
+                            <!--  </div>
 
-                          <button class="  download-btn">
-                            <i class="fa fa-download" aria-hidden="true"></i> 
-                            Download Brochure
-                          </button>
+                          </div> -->
+                          <div class="floor_plan_box brocher text-center">
+                          <div class="mb-4">
+                            <!-- <a data-fancybox="gallery" href="images/in-im.png" data-event-category="Gallery" data-event-action="Click" data-event-name="Floor Plan 1"> -->
+                              <img src="images/in-im.png" alt="" class="">
+                            <!-- </a> -->
+                          </div>
 
+                            <a class="download-btn ultimaBtn hvr-sweep-to-right overflow-hidden" href="images/IV.pdf" target="_blank">
+                                Download Brochure
+                            </a>
                           <!--<a href="#" class="ultimaBtn1 hvr-sweep-to-right">DOWNLOAD</a>-->
                       </div><!-- floor_plan_box -->
 
@@ -1378,8 +1446,44 @@ var autoplay='?autoplay=1';
 
 
 <script>
-    
 
+
+
+//     $('.owl-carousel').owlCarousel({
+//     loop:true,
+//     dots:false,
+//     nav:true,
+//     mouseDrag:false,
+//     autoplay:true,
+//     animateOut: 'slideOutLeft',
+//     responsive:{
+//         0:{
+//             items:1
+//         },
+//         600:{
+//             items:1
+//         },
+//         1000:{
+//             items:1
+//         }
+//     }
+// });
+$('.secondary-slider').owlCarousel({
+  loop:true,
+  nav:false,
+  autoplay:true,
+  responsive:{
+      0:{
+          items:1
+      },
+      600:{
+          items:1
+      },
+      1000:{
+          items:1
+      }
+  }
+});
 
 
 
@@ -1415,26 +1519,6 @@ video = jQuery('#myVideos').get()[0];
             video.pause();
         }
     });
-</script>
-
-<script>
-	$('.secondary-slider').owlCarousel({
-    loop:true,
-    nav:false,
-	  autoplay:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:1
-        },
-        1000:{
-            items:1
-        }
-    }
-})
-	
 </script>
 </body>
 </html>

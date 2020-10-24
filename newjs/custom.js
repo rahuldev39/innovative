@@ -78,7 +78,7 @@ $(document).ready(function() {
    
     $(".floorPlan a").fancybox();
      $(".site-map a").fancybox();
-     $(".blueBg a").fancybox();
+
     
    
     
